@@ -1,0 +1,11 @@
+{
+  "name": "puvin-cms-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "build": "node build.mjs",
+    "seed": "node server.mjs --seed"
+  }
+}

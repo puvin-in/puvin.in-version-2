@@ -1,0 +1,4873 @@
+{
+  "a11y": {
+    "images_without_alt": 0,
+    "landmarks": {
+      "banner": 1,
+      "form": 1,
+      "main": 1,
+      "navigation": 1
+    },
+    "lang": "en-US",
+    "unnamed_controls": 11,
+    "unnamed_examples": [
+      "a.transparent-link",
+      "a.transparent-link",
+      "a.transparent-link",
+      "a.transparent-link",
+      "a.transparent-link"
+    ]
+  },
+  "assets": {
+    "background_images": [
+      "https://puvin.in/wp-content/uploads/2021/10/bg-image-28-1.jpg",
+      "https://puvin.in/wp-content/uploads/2021/12/pt-7-1-390x532.jpg",
+      "https://puvin.in/wp-content/uploads/2021/12/pt-8-1-390x532.jpg",
+      "https://puvin.in/wp-content/uploads/2021/05/dp-big-portfolio-03-1-390x532.jpg",
+      "https://puvin.in/wp-content/uploads/2021/09/photo-editing-1-390x532.jpg",
+      "https://puvin.in/wp-content/uploads/2021/09/app-development-1-390x532.jpg",
+      "https://puvin.in/wp-content/uploads/2021/09/photoshop-scaled-2-390x532.jpg",
+      "https://puvin.in/wp-content/themes/imroz/assets/images/bg/bg-image-1.jpg"
+    ],
+    "fonts": [
+      "https://fonts.googleapis.com/css",
+      "https://puvin.in/cf-fonts/s/poppins/5.2.7/latin/500/normal.woff2",
+      "https://puvin.in/wp-content/themes/imroz/assets/fonts/Feather.ttf",
+      "https://puvin.in/cf-fonts/s/poppins/5.2.7/latin/600/normal.woff2",
+      "https://puvin.in/cf-fonts/s/poppins/5.2.7/latin/400/normal.woff2",
+      "https://puvin.in/wp-content/themes/imroz/assets/fonts/fontawesome-free/webfonts/fa-brands-400.woff2",
+      "https://puvin.in/cf-fonts/s/poppins/5.2.7/latin/700/normal.woff2",
+      "https://puvin.in/cf-fonts/s/montserrat/5.2.8/latin/900/normal.woff2",
+      "https://puvin.in/cf-fonts/s/poppins/5.2.7/latin/300/normal.woff2",
+      "https://puvin.in/wp-content/themes/imroz/assets/fonts/fontawesome-free/webfonts/fa-solid-900.woff2"
+    ],
+    "images": [
+      {
+        "alt": "Poorni",
+        "h": 66,
+        "src": "https://puvin.in/wp-content/uploads/2026/09/Poornima-Logo-1.svg",
+        "w": 300
+      },
+      {
+        "alt": "Poorni",
+        "h": 66,
+        "src": "https://puvin.in/wp-content/uploads/2026/09/Poornima-Logo.svg",
+        "w": 300
+      },
+      {
+        "alt": "Sun images",
+        "h": 18,
+        "src": "https://puvin.in/wp-content/themes/imroz/assets/images/icons/sun-01.svg",
+        "w": 18
+      },
+      {
+        "alt": "Vector Images",
+        "h": 18,
+        "src": "https://puvin.in/wp-content/themes/imroz/assets/images/icons/vector.svg",
+        "w": 18
+      },
+      {
+        "alt": "Poorni",
+        "h": 66,
+        "src": "https://puvin.in/wp-content/uploads/2026/09/Poornima-Logo-1.svg",
+        "w": 300
+      },
+      {
+        "alt": "Poorni",
+        "h": 66,
+        "src": "https://puvin.in/wp-content/uploads/2026/09/Poornima-Logo.svg",
+        "w": 300
+      },
+      {
+        "alt": "about-8",
+        "h": 1150,
+        "src": "https://puvin.in/wp-content/uploads/2021/10/about-8-1.jpg",
+        "w": 1000
+      },
+      {
+        "alt": "new-blog-07",
+        "h": 532,
+        "src": "https://puvin.in/wp-content/uploads/2021/09/new-blog-07-scaled-2-390x532.jpg",
+        "w": 390
+      },
+      {
+        "alt": "new-blog-06",
+        "h": 532,
+        "src": "https://puvin.in/wp-content/uploads/2021/09/new-blog-06-scaled-2-390x532.jpg",
+        "w": 390
+      },
+      {
+        "alt": "new-blog-05",
+        "h": 532,
+        "src": "https://puvin.in/wp-content/uploads/2021/09/new-blog-05-scaled-2-390x532.jpg",
+        "w": 390
+      },
+      {
+        "alt": "about-13",
+        "h": 850,
+        "src": "https://puvin.in/wp-content/uploads/2021/10/about-13-1.jpg",
+        "w": 800
+      },
+      {
+        "alt": "Poorni",
+        "h": 66,
+        "src": "https://puvin.in/wp-content/uploads/2026/09/Poornima-Logo.svg",
+        "w": 300
+      }
+    ],
+    "inline_scripts": 13,
+    "requests": [
+      {
+        "bytes": 451,
+        "type": "other",
+        "url": "https://puvin.in/cdn-cgi/speculation"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/plugins/contact-form-7/includes/css/styles.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/plugins/imroz-core/assets/css/feather.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/plugins/woocommerce/assets/css/woocommerce.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/css/vendor/bootstrap.min.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/css/vendor/lightbox.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/css/vendor/magnific-popup.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/css/vendor/fontawesome.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/css/vendor/slick-slider.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/css/vendor/animation.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/css/style.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/css/woocommerce.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/css/vendor/feather.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/css/dev-style.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/themes/imroz/style.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/plugins/elementor/assets/css/frontend.min.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/uploads/elementor/css/post-6.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/uploads/elementor/css/base-desktop.css"
+      },
+      {
+        "bytes": 566,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/uploads/elementor/css/post-785.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://fonts.googleapis.com/css"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-includes/js/jquery/jquery-migrate.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-includes/js/jquery/jquery.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/js/vendor/stellar.js"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://puvin.in/wp-content/uploads/2026/09/Poornima-Logo-1.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://puvin.in/wp-content/uploads/2026/09/Poornima-Logo.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/js/plugins/parallax.js"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/images/icons/sun-01.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/images/icons/vector.svg"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css"
+      },
+      {
+        "bytes": 0,
+        "type": "link",
+        "url": "https://puvin.in/wp-content/uploads/elementor/css/base-mobile.css"
+      },
+      {
+        "bytes": 0,
+        "type": "css",
+        "url": "https://puvin.in/cf-fonts/s/poppins/5.2.7/latin/500/normal.woff2"
+      },
+      {
+        "bytes": 0,
+        "type": "css",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/fonts/Feather.ttf"
+      },
+      {
+        "bytes": 0,
+        "type": "css",
+        "url": "https://puvin.in/cf-fonts/s/poppins/5.2.7/latin/600/normal.woff2"
+      },
+      {
+        "bytes": 0,
+        "type": "css",
+        "url": "https://puvin.in/cf-fonts/s/poppins/5.2.7/latin/400/normal.woff2"
+      },
+      {
+        "bytes": 104919,
+        "type": "img",
+        "url": "https://puvin.in/wp-content/uploads/2021/10/about-8-1.jpg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://puvin.in/wp-content/uploads/2021/09/new-blog-07-scaled-2-390x532.jpg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://puvin.in/wp-content/uploads/2021/09/new-blog-06-scaled-2-390x532.jpg"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-includes/js/dist/hooks.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-includes/js/dist/i18n.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/plugins/contact-form-7/includes/js/index.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/plugins/imroz-core/assets/js/ajax-scripts.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/plugins/imroz-core/assets/js/element-scripts.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/js/vendor/bootstrap.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/js/vendor/particles.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-includes/js/imagesloaded.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/js/vendor/isotope.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/js/plugins/counterup.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/js/plugins/lightgallery.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/js/plugins/feather-icons.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/js/plugins/jquery.magnific-popup.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/js/plugins/slick.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/js/plugins/waypoints.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/js/plugins/wow.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/js/vendor/js.cookie.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/js/main.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/js/vendor/jquery.style.switcher.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/admin/js/navigation.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/admin/js/skip-link-focus-fix.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-includes/js/jquery/ui/core.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/plugins/elementor/assets/js/frontend.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+      },
+      {
+        "bytes": 39344,
+        "type": "css",
+        "url": "https://puvin.in/wp-content/uploads/2021/10/bg-image-28-1.jpg"
+      },
+      {
+        "bytes": 0,
+        "type": "css",
+        "url": "https://puvin.in/wp-content/uploads/2021/12/pt-7-1-390x532.jpg"
+      },
+      {
+        "bytes": 0,
+        "type": "css",
+        "url": "https://puvin.in/wp-content/uploads/2021/12/pt-8-1-390x532.jpg"
+      },
+      {
+        "bytes": 0,
+        "type": "css",
+        "url": "https://puvin.in/wp-content/uploads/2021/05/dp-big-portfolio-03-1-390x532.jpg"
+      },
+      {
+        "bytes": 0,
+        "type": "css",
+        "url": "https://puvin.in/wp-content/uploads/2021/09/photo-editing-1-390x532.jpg"
+      },
+      {
+        "bytes": 0,
+        "type": "css",
+        "url": "https://puvin.in/wp-content/uploads/2021/09/app-development-1-390x532.jpg"
+      },
+      {
+        "bytes": 0,
+        "type": "css",
+        "url": "https://puvin.in/wp-content/uploads/2021/09/photoshop-scaled-2-390x532.jpg"
+      },
+      {
+        "bytes": 50353,
+        "type": "css",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/images/bg/bg-image-1.jpg"
+      },
+      {
+        "bytes": 0,
+        "type": "css",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/fonts/fontawesome-free/webfonts/fa-brands-400.woff2"
+      },
+      {
+        "bytes": 0,
+        "type": "css",
+        "url": "https://puvin.in/cf-fonts/s/poppins/5.2.7/latin/700/normal.woff2"
+      },
+      {
+        "bytes": 0,
+        "type": "css",
+        "url": "https://puvin.in/cf-fonts/s/montserrat/5.2.8/latin/900/normal.woff2"
+      },
+      {
+        "bytes": 0,
+        "type": "css",
+        "url": "https://puvin.in/cf-fonts/s/poppins/5.2.7/latin/300/normal.woff2"
+      },
+      {
+        "bytes": 0,
+        "type": "css",
+        "url": "https://puvin.in/wp-content/themes/imroz/assets/fonts/fontawesome-free/webfonts/fa-solid-900.woff2"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-includes/js/wp-emoji-release.min.js"
+      },
+      {
+        "bytes": 519,
+        "type": "fetch",
+        "url": "https://puvin.in/wp-json/contact-form-7/v1/contact-forms/829/feedback/schema"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/plugins/elementor/assets/js/chunks/section-stretched-section.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/plugins/elementor/assets/js/chunks/background-slideshow.min.js"
+      },
+      {
+        "bytes": 0,
+        "type": "script",
+        "url": "https://puvin.in/wp-content/plugins/elementor/assets/js/chunks/background-video.min.js"
+      },
+      {
+        "bytes": 300,
+        "type": "xmlhttprequest",
+        "url": "https://puvin.in/cdn-cgi/rum"
+      },
+      {
+        "bytes": 79863,
+        "type": "img",
+        "url": "https://puvin.in/wp-content/uploads/2021/10/about-8-1-768x883.jpg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://puvin.in/wp-content/uploads/2021/10/about-8-1.jpg"
+      },
+      {
+        "bytes": 0,
+        "type": "img",
+        "url": "https://puvin.in/wp-content/uploads/2021/09/new-blog-05-scaled-2-390x532.jpg"
+      },
+      {
+        "bytes": 60450,
+        "type": "img",
+        "url": "https://puvin.in/wp-content/uploads/2021/10/about-13-1.jpg"
+      }
+    ],
+    "scripts": [
+      "https://puvin.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "https://puvin.in/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "https://puvin.in/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.1.2",
+      "https://puvin.in/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.1.2",
+      "https://puvin.in/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.1.2",
+      "https://puvin.in/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.1.2",
+      "https://puvin.in/wp-content/themes/imroz/assets/js/vendor/stellar.js?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/js/plugins/parallax.js?ver=1.6.4",
+      "https://puvin.in/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4",
+      "https://puvin.in/wp-content/plugins/elementor/assets/js/chunks/section-stretched-section.min.js?ver=4.3.2",
+      "https://puvin.in/wp-content/plugins/elementor/assets/js/chunks/background-slideshow.min.js?ver=4.3.2",
+      "https://puvin.in/wp-content/plugins/elementor/assets/js/chunks/background-video.min.js?ver=4.3.2",
+      "https://puvin.in/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255",
+      "https://puvin.in/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216",
+      "https://puvin.in/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.7",
+      "https://puvin.in/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.7",
+      "https://puvin.in/wp-content/plugins/imroz-core/assets/js/ajax-scripts.js",
+      "https://puvin.in/wp-content/plugins/imroz-core/assets/js/element-scripts.js?ver=1.0",
+      "https://puvin.in/wp-content/themes/imroz/assets/js/vendor/bootstrap.min.js?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/js/vendor/particles.js?ver=1.6.4",
+      "https://puvin.in/wp-includes/js/imagesloaded.min.js?ver=5.0.0",
+      "https://puvin.in/wp-content/themes/imroz/assets/js/vendor/isotope.js?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/js/plugins/counterup.js?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/js/plugins/feather-icons.js?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/js/plugins/lightgallery.js?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/js/plugins/jquery.magnific-popup.min.js?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/js/plugins/slick.js?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/js/plugins/waypoints.js?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/js/plugins/wow.js?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/js/vendor/js.cookie.js?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/js/main.js?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/js/vendor/jquery.style.switcher.js?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/admin/js/navigation.js?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/admin/js/skip-link-focus-fix.js?ver=1.6.4",
+      "https://puvin.in/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.1.2",
+      "https://puvin.in/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.1.2",
+      "https://puvin.in/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.3.2",
+      "https://puvin.in/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.3.2",
+      "https://puvin.in/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+      "https://puvin.in/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.2",
+      "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+    ],
+    "stylesheets": [
+      "https://puvin.in/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7",
+      "https://puvin.in/wp-content/plugins/imroz-core/assets/css/feather.css?ver=1.0",
+      "https://puvin.in/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=11.1.2",
+      "https://puvin.in/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=11.1.2",
+      "https://puvin.in/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=11.1.2",
+      "https://puvin.in/wp-content/themes/imroz/assets/css/vendor/bootstrap.min.css?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/css/vendor/lightbox.css?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/css/vendor/magnific-popup.css?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/css/vendor/fontawesome.css?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/css/vendor/slick-slider.css?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/css/vendor/animation.css?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/css/vendor/feather.css?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/css/style.css?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/css/woocommerce.css?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/assets/css/dev-style.css?ver=1.6.4",
+      "https://puvin.in/wp-content/themes/imroz/style.css?ver=7.1.4",
+      "https://puvin.in/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.3.2",
+      "https://puvin.in/wp-content/uploads/elementor/css/post-6.css?ver=1793214640",
+      "https://puvin.in/wp-content/uploads/elementor/css/post-785.css?ver=1793385527",
+      "https://puvin.in/wp-content/uploads/elementor/css/base-desktop.css?ver=6ae248b0ed44c",
+      "https://puvin.in/wp-content/uploads/elementor/css/base-mobile.css?ver=6ae248b0ed44c",
+      "https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap"
+    ]
+  },
+  "breakpoints": [
+    {
+      "count": 4,
+      "px": 479,
+      "query": "max-width 479px"
+    },
+    {
+      "count": 56,
+      "px": 575,
+      "query": "max-width 575px"
+    },
+    {
+      "count": 18,
+      "px": 576,
+      "query": "min-width 576px"
+    },
+    {
+      "count": 2,
+      "px": 576,
+      "query": "max-width 576px"
+    },
+    {
+      "count": 2,
+      "px": 600,
+      "query": "max-width 600px"
+    },
+    {
+      "count": 3,
+      "px": 601,
+      "query": "min-width 601px"
+    },
+    {
+      "count": 1,
+      "px": 620,
+      "query": "min-width 620px"
+    },
+    {
+      "count": 1,
+      "px": 673,
+      "query": "min-width 673px"
+    },
+    {
+      "count": 1,
+      "px": 710,
+      "query": "min-width 710px"
+    },
+    {
+      "count": 304,
+      "px": 767,
+      "query": "max-width 767px"
+    },
+    {
+      "count": 212,
+      "px": 768,
+      "query": "min-width 768px"
+    },
+    {
+      "count": 2,
+      "px": 768,
+      "query": "max-width 768px"
+    },
+    {
+      "count": 3,
+      "px": 779,
+      "query": "min-width 779px"
+    },
+    {
+      "count": 3,
+      "px": 779,
+      "query": "max-width 779px"
+    },
+    {
+      "count": 1,
+      "px": 782,
+      "query": "max-width 782px"
+    },
+    {
+      "count": 1,
+      "px": 800,
+      "query": "max-width 800px"
+    },
+    {
+      "count": 1,
+      "px": 900,
+      "query": "max-width 900px"
+    },
+    {
+      "count": 1,
+      "px": 910,
+      "query": "min-width 910px"
+    },
+    {
+      "count": 1,
+      "px": 955,
+      "query": "min-width 955px"
+    },
+    {
+      "count": 195,
+      "px": 991,
+      "query": "max-width 991px"
+    },
+    {
+      "count": 119,
+      "px": 992,
+      "query": "min-width 992px"
+    },
+    {
+      "count": 4,
+      "px": 992,
+      "query": "max-width 992px"
+    },
+    {
+      "count": 11,
+      "px": 1024,
+      "query": "max-width 1024px"
+    },
+    {
+      "count": 5,
+      "px": 1025,
+      "query": "min-width 1025px"
+    }
+  ],
+  "design": {
+    "backgrounds": [
+      {
+        "count": 15,
+        "value": "#9aa0a628"
+      },
+      {
+        "count": 9,
+        "value": "#ffffff"
+      },
+      {
+        "count": 6,
+        "value": "#0a0a0a"
+      },
+      {
+        "count": 4,
+        "value": "#fd4766"
+      },
+      {
+        "count": 3,
+        "value": "#f9f9f9"
+      },
+      {
+        "count": 3,
+        "value": "#1d1d24bf"
+      },
+      {
+        "count": 1,
+        "value": "#101010"
+      }
+    ],
+    "css_variables": {
+      "--blue": "#007bff",
+      "--border-width": "2px",
+      "--breakpoint-lg": "992px",
+      "--breakpoint-md": "768px",
+      "--breakpoint-sm": "576px",
+      "--breakpoint-xl": "1200px",
+      "--breakpoint-xs": "0",
+      "--color-body": "rgba(29,29,36,.75)",
+      "--color-border": "#E6E6E6",
+      "--color-border-2": "#b1b4c1",
+      "--color-danger": "#FF0003",
+      "--color-dark": "#000000",
+      "--color-dark-body": "rgba(198, 201, 216, 0.75)",
+      "--color-dark-border": "rgba(255,255,255,0.2)",
+      "--color-darkest": "#161414",
+      "--color-discord": "#7289da",
+      "--color-extra01": "#666666",
+      "--color-extra02": "#606770",
+      "--color-extra03": "#FBFBFD",
+      "--color-extra04": "#1A1A1A",
+      "--color-extra05": "#242424",
+      "--color-facebook": "#3B5997",
+      "--color-gray": "rgba(29,29,36,.75)",
+      "--color-heading": "#1f1f25",
+      "--color-info": "#1BA2DB",
+      "--color-instagram": "#C231A1",
+      "--color-light": "#E4E6EA",
+      "--color-lighter": "#CED0D4",
+      "--color-lightest": "#F0F2F5",
+      "--color-linkedin": "#0077B5",
+      "--color-midgray": "#e9ecef",
+      "--color-midgray-lighter": "#757575",
+      "--color-opacity-1": "hsla(0,0%,100%,.2)",
+      "--color-pinterest": "#E60022",
+      "--color-primary": "#FD4766",
+      "--color-primary-light": "#fff5f7",
+      "--color-secondary": "#337DFF",
+      "--color-secondary-rgb": "rgba(253, 71, 102 ,1)",
+      "--color-success": "#3EB75E",
+      "--color-tertiary": "#010001",
+      "--color-twitch": "#6441A3",
+      "--color-twitter": "#1BA1F2",
+      "--color-vimeo": "#00ADEF",
+      "--color-warning": "#FF8F3C",
+      "--color-white": "#ffffff",
+      "--color-youtube": "#ED4141",
+      "--cyan": "#17a2b8",
+      "--danger": "#dc3545",
+      "--dark": "#343a40",
+      "--direction-multiplier": "1",
+      "--font-awesome": "\"Font Awesome 5 Pro\"",
+      "--font-family-monospace": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+      "--font-family-sans-serif": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Se",
+      "--font-primary": "\"Poppins\", sans-serif",
+      "--font-secondary": "\"Poppins\", sans-serif",
+      "--font-size-b1": "18px",
+      "--font-size-b2": "16px",
+      "--font-size-b3": "14px",
+      "--font-size-b4": "12px",
+      "--gray": "#6c757d",
+      "--gray-dark": "#343a40",
+      "--green": "#28a745",
+      "--h1": "44px",
+      "--h2": "36px",
+      "--h3": "30px",
+      "--h4": "24px",
+      "--h5": "18px",
+      "--h6": "16px",
+      "--indigo": "#6610f2",
+      "--info": "#17a2b8",
+      "--light": "#f8f9fa",
+      "--line-height-b1": "1.67",
+      "--line-height-b2": "1.5",
+      "--line-height-b3": "1.6",
+      "--line-height-b4": "1.3",
+      "--orange": "#fd7e14",
+      "--p-black": "900",
+      "--p-bold": "700",
+      "--p-extra-bold": "800",
+      "--p-light": "300",
+      "--p-medium": "500",
+      "--p-regular": "400",
+      "--p-semi-bold": "600",
+      "--page-title-display": "block",
+      "--pink": "#e83e8c",
+      "--primary": "#007bff",
+      "--purple": "#6f42c1",
+      "--radius": "4px",
+      "--radius-big": "16px",
+      "--radius-small": "6px",
+      "--red": "#dc3545",
+      "--s-black": "900",
+      "--s-bold": "700",
+      "--s-light": "300",
+      "--s-medium": "500",
+      "--s-regular": "400",
+      "--secondary": "#6c757d",
+      "--shadow-dark": "0 2px 6px 0 rgba(0, 0, 0, 0.2)",
+      "--shadow-light": "0 2px 6px 0 rgba(0, 0, 0, 0.05)",
+      "--shadow-primary": "0px 4px 10px rgba(37, 47, 63, 0.1)",
+      "--success": "#28a745",
+      "--teal": "#20c997",
+      "--transition": "0.3s",
+      "--warning": "#ffc107",
+      "--wc-blue": "#2ea2cc",
+      "--wc-card-border-radius": "8px",
+      "--wc-content-bg": "#fff",
+      "--wc-destructive": "#cc1818",
+      "--wc-form-border-color": "rgba(32, 7, 7, 0.8)",
+      "--wc-form-border-radius": "4px",
+      "--wc-form-border-width": "1px",
+      "--wc-green": "#007518",
+      "--wc-highligh-text": "white",
+      "--wc-highlight": "#958e09",
+      "--wc-orange": "#ffba00",
+      "--wc-primary": "#720eec",
+      "--wc-primary-text": "#fcfbfe",
+      "--wc-red": "#a00",
+      "--wc-secondary": "#e9e6ed",
+      "--wc-secondary-text": "#515151",
+      "--wc-subtext": "#767676",
+      "--white": "#fff",
+      "--woocommerce": "#720eec",
+      "--wp--preset--aspect-ratio--16-9": "16/9",
+      "--wp--preset--aspect-ratio--2-3": "2/3",
+      "--wp--preset--aspect-ratio--3-2": "3/2",
+      "--wp--preset--aspect-ratio--3-4": "3/4",
+      "--wp--preset--aspect-ratio--4-3": "4/3",
+      "--wp--preset--aspect-ratio--9-16": "9/16",
+      "--wp--preset--aspect-ratio--square": "1",
+      "--wp--preset--color--black": "#000000",
+      "--wp--preset--color--cyan-bluish-gray": "#abb8c3",
+      "--wp--preset--color--dark": "#1f1f25",
+      "--wp--preset--color--gray": "#717173",
+      "--wp--preset--color--light": "#f8f9fc",
+      "--wp--preset--color--light-green-cyan": "#7bdcb5",
+      "--wp--preset--color--luminous-vivid-amber": "#fcb900",
+      "--wp--preset--color--luminous-vivid-orange": "#ff6900",
+      "--wp--preset--color--pale-cyan-blue": "#8ed1fc",
+      "--wp--preset--color--pale-pink": "#f78da7",
+      "--wp--preset--color--primary": "#f9004d",
+      "--wp--preset--color--secondary": "#00D09C",
+      "--wp--preset--color--vivid-cyan-blue": "#0693e3",
+      "--wp--preset--color--vivid-green-cyan": "#00d084",
+      "--wp--preset--color--vivid-purple": "#9b51e0",
+      "--wp--preset--color--vivid-red": "#cf2e2e",
+      "--wp--preset--color--white": "#ffffff",
+      "--wp--preset--font-family--cardo": "Cardo",
+      "--wp--preset--font-family--inter": "\"Inter\", sans-serif",
+      "--wp--preset--font-size--huge": "50px",
+      "--wp--preset--font-size--large": "36px",
+      "--wp--preset--font-size--medium": "20px",
+      "--wp--preset--font-size--normal": "16px",
+      "--wp--preset--font-size--small": "12px",
+      "--wp--preset--font-size--x-large": "42px",
+      "--wp--preset--gradient--blush-bordeaux": "linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%)",
+      "--wp--preset--gradient--blush-light-purple": "linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%)",
+      "--wp--preset--gradient--cool-to-warm-spectrum": "linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 8",
+      "--wp--preset--gradient--electric-grass": "linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%)",
+      "--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan": "linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%)",
+      "--wp--preset--gradient--luminous-dusk": "linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%)",
+      "--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange": "linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%)",
+      "--wp--preset--gradient--luminous-vivid-orange-to-vivid-red": "linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%)",
+      "--wp--preset--gradient--midnight": "linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)",
+      "--wp--preset--gradient--pale-ocean": "linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%)",
+      "--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray": "linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%)",
+      "--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple": "linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%)",
+      "--wp--preset--shadow--crisp": "6px 6px 0px rgb(0, 0, 0)",
+      "--wp--preset--shadow--deep": "12px 12px 50px rgba(0, 0, 0, 0.4)",
+      "--wp--preset--shadow--natural": "6px 6px 9px rgba(0, 0, 0, 0.2)",
+      "--wp--preset--shadow--outlined": "6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0)",
+      "--wp--preset--shadow--sharp": "6px 6px 0px rgba(0, 0, 0, 0.2)",
+      "--wp--preset--spacing--20": "0.44rem",
+      "--wp--preset--spacing--30": "0.67rem",
+      "--wp--preset--spacing--40": "1rem",
+      "--wp--preset--spacing--50": "1.5rem",
+      "--wp--preset--spacing--60": "2.25rem",
+      "--wp--preset--spacing--70": "3.38rem",
+      "--wp--preset--spacing--80": "5.06rem",
+      "--yellow": "#ffc107"
+    },
+    "font_faces": [
+      {
+        "family": "Feather",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "normal"
+      },
+      {
+        "family": "star",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "WooCommerce",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "800"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "900"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "900"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "900"
+      },
+      {
+        "family": "Montserrat",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "900"
+      },
+      {
+        "family": "Montserrat",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "900"
+      },
+      {
+        "family": "Poppins",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "300"
+      },
+      {
+        "family": "Poppins",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "300"
+      },
+      {
+        "family": "Poppins",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "300"
+      },
+      {
+        "family": "Poppins",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Poppins",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Poppins",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Poppins",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Poppins",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Poppins",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Poppins",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Poppins",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Poppins",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Poppins",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Poppins",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Poppins",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Poppins",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "700"
+      },
+      {
+        "family": "Poppins",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "700"
+      },
+      {
+        "family": "Poppins",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "700"
+      },
+      {
+        "family": "lg",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "normal"
+      },
+      {
+        "family": "Font Awesome 5 Brands",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "normal"
+      },
+      {
+        "family": "Font Awesome 5 Free",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Font Awesome 5 Free",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "900"
+      },
+      {
+        "family": "slick",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "slick",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "normal"
+      },
+      {
+        "family": "Feather",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "normal"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "100"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "100"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "100"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "100"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "100"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "100"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "100"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "100"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "100"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "100"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "100"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "100"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "100"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "100"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "100"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "100"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "100"
+      }
+    ],
+    "font_sizes": [
+      {
+        "count": 45,
+        "value": "16px"
+      },
+      {
+        "count": 29,
+        "value": "18px"
+      },
+      {
+        "count": 10,
+        "value": "14px"
+      },
+      {
+        "count": 6,
+        "value": "50px"
+      },
+      {
+        "count": 6,
+        "value": "20px"
+      },
+      {
+        "count": 6,
+        "value": "30px"
+      },
+      {
+        "count": 6,
+        "value": "24px"
+      },
+      {
+        "count": 3,
+        "value": "54px"
+      },
+      {
+        "count": 3,
+        "value": "77px"
+      },
+      {
+        "count": 1,
+        "value": "12px"
+      },
+      {
+        "count": 1,
+        "value": "15px"
+      }
+    ],
+    "font_weights": [
+      {
+        "count": 43,
+        "value": "400"
+      },
+      {
+        "count": 29,
+        "value": "600"
+      },
+      {
+        "count": 24,
+        "value": "500"
+      },
+      {
+        "count": 17,
+        "value": "300"
+      },
+      {
+        "count": 2,
+        "value": "900"
+      },
+      {
+        "count": 1,
+        "value": "700"
+      }
+    ],
+    "fonts": [
+      {
+        "count": 114,
+        "value": "Poppins, sans-serif"
+      },
+      {
+        "count": 2,
+        "value": "Montserrat, sans-serif"
+      }
+    ],
+    "max_widths": [
+      {
+        "count": 7,
+        "value": "1260px"
+      }
+    ],
+    "radii": [
+      {
+        "count": 22,
+        "value": "4px"
+      },
+      {
+        "count": 21,
+        "value": "5px"
+      },
+      {
+        "count": 15,
+        "value": "100%"
+      },
+      {
+        "count": 15,
+        "value": "100px"
+      },
+      {
+        "count": 13,
+        "value": "10px"
+      },
+      {
+        "count": 6,
+        "value": "500px"
+      },
+      {
+        "count": 4,
+        "value": "800.001px"
+      },
+      {
+        "count": 1,
+        "value": "8px"
+      },
+      {
+        "count": 1,
+        "value": "900px"
+      }
+    ],
+    "shadows": [],
+    "spacing": [
+      {
+        "count": 85,
+        "value": "15px"
+      },
+      {
+        "count": 56,
+        "value": "30px"
+      },
+      {
+        "count": 34,
+        "value": "40px"
+      },
+      {
+        "count": 24,
+        "value": "20px"
+      },
+      {
+        "count": 24,
+        "value": "23px"
+      },
+      {
+        "count": 22,
+        "value": "10px"
+      },
+      {
+        "count": 20,
+        "value": "-1px"
+      },
+      {
+        "count": 15,
+        "value": "14px"
+      },
+      {
+        "count": 14,
+        "value": "20.2897px"
+      },
+      {
+        "count": 12,
+        "value": "120px"
+      },
+      {
+        "count": 10,
+        "value": "5px"
+      },
+      {
+        "count": 10,
+        "value": "16px"
+      },
+      {
+        "count": 10,
+        "value": "6px"
+      },
+      {
+        "count": 8,
+        "value": "25px"
+      },
+      {
+        "count": 8,
+        "value": "13.3333px"
+      },
+      {
+        "count": 8,
+        "value": "33px"
+      },
+      {
+        "count": 8,
+        "value": "307.5px"
+      },
+      {
+        "count": 6,
+        "value": "12px"
+      },
+      {
+        "count": 6,
+        "value": "19px"
+      },
+      {
+        "count": 6,
+        "value": "136.5px"
+      },
+      {
+        "count": 6,
+        "value": "26px"
+      },
+      {
+        "count": 5,
+        "value": "50px"
+      },
+      {
+        "count": 3,
+        "value": "17px"
+      },
+      {
+        "count": 3,
+        "value": "36px"
+      }
+    ],
+    "text_colors": [
+      {
+        "count": 42,
+        "value": "#ffffff"
+      },
+      {
+        "count": 36,
+        "value": "#1d1d24bf"
+      },
+      {
+        "count": 20,
+        "value": "#1f1f25"
+      },
+      {
+        "count": 6,
+        "value": "#dfdfdf"
+      },
+      {
+        "count": 6,
+        "value": "#fd4766"
+      },
+      {
+        "count": 2,
+        "value": "#1d1d24"
+      },
+      {
+        "count": 1,
+        "value": "#fee4e9"
+      },
+      {
+        "count": 1,
+        "value": "#dcdcddf2"
+      },
+      {
+        "count": 1,
+        "value": "#c6c9d8ba"
+      },
+      {
+        "count": 1,
+        "value": "#757575"
+      }
+    ]
+  },
+  "forms": [
+    {
+      "action": "/personal-portfolio-02/#wpcf7-f829-p785-o1",
+      "fields": [
+        {
+          "label": "",
+          "name": "",
+          "placeholder": "",
+          "required": false,
+          "tag": "fieldset",
+          "type": "fieldset"
+        },
+        {
+          "label": "",
+          "name": "_wpcf7",
+          "placeholder": "",
+          "required": false,
+          "tag": "input",
+          "type": "hidden"
+        },
+        {
+          "label": "",
+          "name": "_wpcf7_version",
+          "placeholder": "",
+          "required": false,
+          "tag": "input",
+          "type": "hidden"
+        },
+        {
+          "label": "",
+          "name": "_wpcf7_locale",
+          "placeholder": "",
+          "required": false,
+          "tag": "input",
+          "type": "hidden"
+        },
+        {
+          "label": "",
+          "name": "_wpcf7_unit_tag",
+          "placeholder": "",
+          "required": false,
+          "tag": "input",
+          "type": "hidden"
+        },
+        {
+          "label": "",
+          "name": "_wpcf7_container_post",
+          "placeholder": "",
+          "required": false,
+          "tag": "input",
+          "type": "hidden"
+        },
+        {
+          "label": "",
+          "name": "_wpcf7_posted_data_hash",
+          "placeholder": "",
+          "required": false,
+          "tag": "input",
+          "type": "hidden"
+        },
+        {
+          "label": "",
+          "name": "your-name",
+          "placeholder": "Your Name *",
+          "required": false,
+          "tag": "input",
+          "type": "text"
+        },
+        {
+          "label": "",
+          "name": "your-email",
+          "placeholder": "Your Email *",
+          "required": false,
+          "tag": "input",
+          "type": "email"
+        },
+        {
+          "label": "",
+          "name": "your-subject",
+          "placeholder": "Your Subject",
+          "required": false,
+          "tag": "input",
+          "type": "text"
+        },
+        {
+          "label": "",
+          "name": "your-message",
+          "placeholder": "Your Message *",
+          "required": false,
+          "tag": "textarea",
+          "type": "textarea"
+        },
+        {
+          "label": "",
+          "name": "",
+          "placeholder": "",
+          "required": false,
+          "tag": "input",
+          "type": "submit"
+        }
+      ],
+      "method": "post"
+    }
+  ],
+  "headings": [
+    {
+      "level": 1,
+      "text": "I’m Joe Biden JS Developer."
+    },
+    {
+      "level": 2,
+      "text": "About Me"
+    },
+    {
+      "level": 2,
+      "text": "My Awesome Service"
+    },
+    {
+      "level": 3,
+      "text": "Business Stratagy"
+    },
+    {
+      "level": 3,
+      "text": "Website Development"
+    },
+    {
+      "level": 3,
+      "text": "Marketing & Reporting"
+    },
+    {
+      "level": 3,
+      "text": "Mobile Development"
+    },
+    {
+      "level": 3,
+      "text": "Marketing & Reporting"
+    },
+    {
+      "level": 3,
+      "text": "App Development"
+    },
+    {
+      "level": 2,
+      "text": "My Latest Project"
+    },
+    {
+      "level": 2,
+      "text": "Pricing Plan"
+    },
+    {
+      "level": 2,
+      "text": "Latest News"
+    },
+    {
+      "level": 2,
+      "text": "Hire Me."
+    }
+  ],
+  "health": {
+    "errors": [],
+    "failed_requests": []
+  },
+  "lang": "en-US",
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "h": 125,
+          "pad": [
+            21,
+            50,
+            21,
+            50
+          ],
+          "per_row": 1,
+          "tag": "header",
+          "w": 1425,
+          "y": 0
+        },
+        {
+          "h": 67,
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "nav",
+          "w": 565,
+          "y": 29
+        },
+        {
+          "column": {
+            "max_w": 1260,
+            "pad": [
+              15,
+              15
+            ],
+            "w": 1260,
+            "x": 83
+          },
+          "h": 7273,
+          "heading": "I’m Joe Biden JS Developer.",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 3,
+          "tag": "main",
+          "w": 1425,
+          "y": 0
+        },
+        {
+          "column": {
+            "max_w": 1260,
+            "pad": [
+              15,
+              15
+            ],
+            "w": 1260,
+            "x": 83
+          },
+          "h": 734,
+          "heading": "I’m Joe Biden JS Developer.",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 1425,
+          "y": 0
+        },
+        {
+          "column": {
+            "max_w": 1260,
+            "pad": [
+              15,
+              15
+            ],
+            "w": 1260,
+            "x": 83
+          },
+          "h": 796,
+          "heading": "About Me",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 1425,
+          "y": 734
+        },
+        {
+          "background": "#f9f9f9",
+          "column": {
+            "max_w": 1260,
+            "pad": [
+              15,
+              15
+            ],
+            "w": 1260,
+            "x": 83
+          },
+          "h": 1074,
+          "heading": "My Awesome Service",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 3,
+          "tag": "section",
+          "w": 1425,
+          "y": 1530
+        },
+        {
+          "column": {
+            "max_w": 1260,
+            "pad": [
+              15,
+              15
+            ],
+            "w": 1260,
+            "x": 83
+          },
+          "h": 1632,
+          "heading": "My Latest Project",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 3,
+          "tag": "section",
+          "w": 1425,
+          "y": 2603
+        },
+        {
+          "column": {
+            "max_w": 1260,
+            "pad": [
+              15,
+              15
+            ],
+            "w": 1260,
+            "x": 83
+          },
+          "h": 1094,
+          "heading": "Pricing Plan",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 3,
+          "tag": "section",
+          "w": 1425,
+          "y": 4235
+        },
+        {
+          "column": {
+            "max_w": 1260,
+            "pad": [
+              15,
+              15
+            ],
+            "w": 1260,
+            "x": 83
+          },
+          "h": 1011,
+          "heading": "Latest News",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 3,
+          "tag": "section",
+          "w": 1425,
+          "y": 5330
+        },
+        {
+          "column": {
+            "max_w": 1260,
+            "pad": [
+              15,
+              15
+            ],
+            "w": 1260,
+            "x": 83
+          },
+          "h": 932,
+          "heading": "Hire Me.",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "section",
+          "w": 1425,
+          "y": 6341
+        }
+      ],
+      "page_h": 7398,
+      "page_w": 1425,
+      "type": {
+        "body": 54,
+        "h1": 54,
+        "h2": 50,
+        "h3": 20
+      },
+      "width": 1440
+    },
+    {
+      "blocks": [
+        {
+          "h": 90,
+          "pad": [
+            8,
+            30,
+            8,
+            30
+          ],
+          "per_row": 1,
+          "tag": "header",
+          "w": 753,
+          "y": 0
+        },
+        {
+          "column": {
+            "max_w": 720,
+            "pad": [
+              15,
+              15
+            ],
+            "w": 720,
+            "x": 17
+          },
+          "h": 10171,
+          "heading": "I’m Joe Biden JS Developer.",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "main",
+          "w": 753,
+          "y": 0
+        },
+        {
+          "column": {
+            "max_w": 720,
+            "pad": [
+              15,
+              15
+            ],
+            "w": 720,
+            "x": 17
+          },
+          "h": 734,
+          "heading": "I’m Joe Biden JS Developer.",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 753,
+          "y": 0
+        },
+        {
+          "column": {
+            "max_w": 720,
+            "pad": [
+              15,
+              15
+            ],
+            "w": 720,
+            "x": 17
+          },
+          "h": 1507,
+          "heading": "About Me",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 753,
+          "y": 734
+        },
+        {
+          "background": "#f9f9f9",
+          "column": {
+            "max_w": 720,
+            "pad": [
+              15,
+              15
+            ],
+            "w": 720,
+            "x": 17
+          },
+          "h": 1272,
+          "heading": "My Awesome Service",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "section",
+          "w": 753,
+          "y": 2241
+        },
+        {
+          "column": {
+            "max_w": 720,
+            "pad": [
+              15,
+              15
+            ],
+            "w": 720,
+            "x": 17
+          },
+          "h": 2044,
+          "heading": "My Latest Project",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "section",
+          "w": 753,
+          "y": 3513
+        },
+        {
+          "column": {
+            "max_w": 720,
+            "pad": [
+              15,
+              15
+            ],
+            "w": 720,
+            "x": 17
+          },
+          "h": 1680,
+          "heading": "Pricing Plan",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "section",
+          "w": 753,
+          "y": 5557
+        },
+        {
+          "column": {
+            "max_w": 720,
+            "pad": [
+              15,
+              15
+            ],
+            "w": 720,
+            "x": 17
+          },
+          "h": 1329,
+          "heading": "Latest News",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "section",
+          "w": 753,
+          "y": 7237
+        },
+        {
+          "column": {
+            "max_w": 720,
+            "pad": [
+              15,
+              15
+            ],
+            "w": 720,
+            "x": 17
+          },
+          "h": 1605,
+          "heading": "Hire Me.",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 753,
+          "y": 8566
+        }
+      ],
+      "page_h": 10340,
+      "page_w": 753,
+      "type": {
+        "body": 54,
+        "h1": 53,
+        "h2": 40,
+        "h3": 20
+      },
+      "width": 768
+    },
+    {
+      "blocks": [
+        {
+          "h": 90,
+          "pad": [
+            8,
+            7,
+            8,
+            7
+          ],
+          "per_row": 1,
+          "tag": "header",
+          "w": 390,
+          "y": 0
+        },
+        {
+          "h": 12152,
+          "heading": "I’m Joe Biden JS Developer.",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 3,
+          "tag": "main",
+          "w": 390,
+          "y": 0
+        },
+        {
+          "h": 502,
+          "heading": "I’m Joe Biden JS Developer.",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 390,
+          "y": 0
+        },
+        {
+          "h": 1181,
+          "heading": "About Me",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 3,
+          "tag": "section",
+          "w": 390,
+          "y": 502
+        },
+        {
+          "background": "#f9f9f9",
+          "h": 1993,
+          "heading": "My Awesome Service",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 390,
+          "y": 1683
+        },
+        {
+          "h": 3208,
+          "heading": "My Latest Project",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 2,
+          "tag": "section",
+          "w": 390,
+          "y": 3676
+        },
+        {
+          "h": 2119,
+          "heading": "Pricing Plan",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 390,
+          "y": 6884
+        },
+        {
+          "h": 1932,
+          "heading": "Latest News",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 390,
+          "y": 9003
+        },
+        {
+          "h": 1217,
+          "heading": "Hire Me.",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 390,
+          "y": 10935
+        }
+      ],
+      "page_h": 12421,
+      "page_w": 390,
+      "type": {
+        "body": 16,
+        "h1": 30,
+        "h2": 32,
+        "h3": 18
+      },
+      "width": 390
+    }
+  ],
+  "links": [
+    {
+      "href": "https://puvin.in/",
+      "text": ""
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#home",
+      "text": "Home"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#about",
+      "text": "About"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#services",
+      "text": "Services"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#portfolio",
+      "text": "Portfolio"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#pricing",
+      "text": "Pricing"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#blog",
+      "text": "Blog"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://puvin.in/cart/",
+      "text": "0"
+    },
+    {
+      "href": "javascript: void(0);",
+      "text": ""
+    },
+    {
+      "href": "javascript: void(0);",
+      "text": ""
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "text": "HIRE ME"
+    },
+    {
+      "href": "https://puvin.in/",
+      "text": ""
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#home",
+      "text": "Home"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#about",
+      "text": "About"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#services",
+      "text": "Services"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#portfolio",
+      "text": "Portfolio"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#pricing",
+      "text": "Pricing"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#blog",
+      "text": "Blog"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "text": "DOWNLOAD CV"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#rn-e3a63db-0",
+      "text": "Main skills"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#rn-e3a63db-1",
+      "text": "Awards"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#rn-e3a63db-2",
+      "text": "Experience"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#rn-e3a63db-3",
+      "text": "Education & Certification"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/service.html",
+      "text": "User experience design - UI/UX"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/service.html",
+      "text": "Web and user interface design - Development"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/service.html",
+      "text": "Interaction design - Animation"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/service.html",
+      "text": "Awwwards.com - Winner"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/service.html",
+      "text": "CSS Design Awards - Winner"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/service.html",
+      "text": "Design nominees - site of the day"
+    },
+    {
+      "href": "https://puvin.in/service",
+      "text": "Sr. Front-end Engineer - Google"
+    },
+    {
+      "href": "https://puvin.in/service",
+      "text": "Front-end Engineer - Microsoft"
+    },
+    {
+      "href": "https://puvin.in/service",
+      "text": "Software Engineer - Alibaba"
+    },
+    {
+      "href": "https://puvin.in/service",
+      "text": "BSc In CSE - ABC University, Los Angeles, CA"
+    },
+    {
+      "href": "https://puvin.in/service",
+      "text": "Diploma in Computer Science - Gamma Technical Institute"
+    },
+    {
+      "href": "https://puvin.in/service",
+      "text": "Graphic Designer - ABC Institute, Los Angeles, CA"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "text": "Business Stratagy There are many variations of passages of Lorem Ipsum available, but the majority h"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "text": "Website Development It is a long established fact that a reader will be distracted by the readable c"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "text": "Marketing & Reporting Contrary to popular belief, Lorem Ipsum is not simply random text. It has root"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "text": "Mobile Development There are many variations of passages of Lorem Ipsum available, but the majority."
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "text": "Marketing & Reporting The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a li"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "text": "App Development Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium."
+    },
+    {
+      "href": "https://puvin.in/portfolio/game-development/",
+      "text": "Game Development"
+    },
+    {
+      "href": "https://puvin.in/portfolio/game-development/",
+      "text": "Case Study"
+    },
+    {
+      "href": "https://puvin.in/portfolio/game-development/",
+      "text": ""
+    },
+    {
+      "href": "https://puvin.in/portfolio/reporting-development/",
+      "text": "Reporting Development"
+    },
+    {
+      "href": "https://puvin.in/portfolio/reporting-development/",
+      "text": "Case Study"
+    },
+    {
+      "href": "https://puvin.in/portfolio/reporting-development/",
+      "text": ""
+    },
+    {
+      "href": "https://puvin.in/portfolio/seo-marketing/",
+      "text": "SEO Marketing"
+    },
+    {
+      "href": "https://puvin.in/portfolio/seo-marketing/",
+      "text": "Case Study"
+    },
+    {
+      "href": "https://puvin.in/portfolio/seo-marketing/",
+      "text": ""
+    },
+    {
+      "href": "https://puvin.in/portfolio/web-design/",
+      "text": "Web Design"
+    },
+    {
+      "href": "https://puvin.in/portfolio/web-design/",
+      "text": "Case Study"
+    },
+    {
+      "href": "https://puvin.in/portfolio/web-design/",
+      "text": ""
+    },
+    {
+      "href": "https://puvin.in/portfolio/app-development/",
+      "text": "App Development"
+    },
+    {
+      "href": "https://puvin.in/portfolio/app-development/",
+      "text": "Case Study"
+    },
+    {
+      "href": "https://puvin.in/portfolio/app-development/",
+      "text": ""
+    },
+    {
+      "href": "https://puvin.in/portfolio/photoshop-design/",
+      "text": "Photoshop Design"
+    },
+    {
+      "href": "https://puvin.in/portfolio/photoshop-design/",
+      "text": "Case Study"
+    },
+    {
+      "href": "https://puvin.in/portfolio/photoshop-design/",
+      "text": ""
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "text": "VIEW MORE PROJECT"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "text": "PURCHASE NOW"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "text": "PURCHASE NOW"
+    },
+    {
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "text": "PURCHASE NOW"
+    },
+    {
+      "href": "https://puvin.in/2021/09/09/have-you-heard-agency-is-your-best-bet-to-grow/",
+      "text": ""
+    },
+    {
+      "href": "https://puvin.in/2021/09/09/have-you-heard-agency-is-your-best-bet-to-grow/",
+      "text": "Have You Heard? Agency Is Your Best Bet To Grow"
+    },
+    {
+      "href": "https://puvin.in/2021/09/09/have-you-heard-agency-is-your-best-bet-to-grow/",
+      "text": "Read More"
+    },
+    {
+      "href": "https://puvin.in/2021/09/09/agency-works-only-under-these-conditions/",
+      "text": ""
+    },
+    {
+      "href": "https://puvin.in/2021/09/09/agency-works-only-under-these-conditions/",
+      "text": "Agency Works Only Under These Conditions"
+    },
+    {
+      "href": "https://puvin.in/2021/09/09/agency-works-only-under-these-conditions/",
+      "text": "Read More"
+    },
+    {
+      "href": "https://puvin.in/2021/09/09/top-10-tips-to-grow-your-agency/",
+      "text": ""
+    },
+    {
+      "href": "https://puvin.in/2021/09/09/top-10-tips-to-grow-your-agency/",
+      "text": "Top 10 Tips To Grow Your Agency"
+    },
+    {
+      "href": "https://puvin.in/2021/09/09/top-10-tips-to-grow-your-agency/",
+      "text": "Read More"
+    },
+    {
+      "href": "tel:+11105558698976",
+      "text": "+111 (0)55 5869 8976"
+    },
+    {
+      "href": "mailto:example@gmail.com",
+      "text": "example@gmail.com"
+    },
+    {
+      "href": "https://puvin.in/",
+      "text": ""
+    },
+    {
+      "href": "https://www.facebook.com/",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/",
+      "text": ""
+    },
+    {
+      "href": "https://linkedin.com/",
+      "text": ""
+    },
+    {
+      "href": "https://instagram.com/",
+      "text": ""
+    },
+    {
+      "href": "https://dribbble.com/",
+      "text": ""
+    }
+  ],
+  "meta": {
+    "description": "",
+    "icons": [
+      "https://puvin.in/wp-content/uploads/2021/06/cropped-logo-symbol-dark-1-100x100.png",
+      "https://puvin.in/wp-content/uploads/2021/06/cropped-logo-symbol-dark-1-300x300.png",
+      "https://puvin.in/wp-content/uploads/2021/06/cropped-logo-symbol-dark-1-300x300.png"
+    ],
+    "og_image": "",
+    "og_title": "",
+    "theme_color": ""
+  },
+  "outline": [
+    {
+      "box": {
+        "h": 116,
+        "w": 1425,
+        "x": 0,
+        "y": 0
+      },
+      "class": "header-area header-style-one header--sticky header--transparent",
+      "color": "#1d1d24bf",
+      "depth": 3,
+      "display": "block",
+      "font": "18px 400",
+      "tag": "header"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 565,
+        "x": 506,
+        "y": 24
+      },
+      "class": "navbar-onepage mainmenunav d-none d-lg-block",
+      "color": "#1d1d24bf",
+      "depth": 6,
+      "display": "block",
+      "font": "18px 400",
+      "tag": "nav"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 565,
+        "x": 506,
+        "y": 24
+      },
+      "class": "mainmenu nav nav-pills",
+      "color": "#1d1d24bf",
+      "depth": 7,
+      "display": "flex",
+      "flex": "row",
+      "font": "18px 400",
+      "id": "mainmenu",
+      "tag": "ul"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 48,
+        "x": 506,
+        "y": 24
+      },
+      "class": "nav-link smoth-animation",
+      "color": "#dfdfdf",
+      "depth": 9,
+      "font": "16px 500",
+      "href": "https://puvin.in/personal-portfolio-02/#home",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 49,
+        "x": 584,
+        "y": 24
+      },
+      "class": "nav-link smoth-animation",
+      "color": "#dfdfdf",
+      "depth": 9,
+      "font": "16px 500",
+      "href": "https://puvin.in/personal-portfolio-02/#about",
+      "tag": "a",
+      "text": "About"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 67,
+        "x": 662,
+        "y": 24
+      },
+      "class": "nav-link smoth-animation",
+      "color": "#dfdfdf",
+      "depth": 9,
+      "font": "16px 500",
+      "href": "https://puvin.in/personal-portfolio-02/#services",
+      "tag": "a",
+      "text": "Services"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 66,
+        "x": 759,
+        "y": 24
+      },
+      "class": "nav-link smoth-animation",
+      "color": "#dfdfdf",
+      "depth": 9,
+      "font": "16px 500",
+      "href": "https://puvin.in/personal-portfolio-02/#portfolio",
+      "tag": "a",
+      "text": "Portfolio"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 55,
+        "x": 855,
+        "y": 24
+      },
+      "class": "nav-link smoth-animation",
+      "color": "#dfdfdf",
+      "depth": 9,
+      "font": "16px 500",
+      "href": "https://puvin.in/personal-portfolio-02/#pricing",
+      "tag": "a",
+      "text": "Pricing"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 35,
+        "x": 940,
+        "y": 24
+      },
+      "class": "nav-link smoth-animation",
+      "color": "#dfdfdf",
+      "depth": 9,
+      "font": "16px 500",
+      "href": "https://puvin.in/personal-portfolio-02/#blog",
+      "tag": "a",
+      "text": "Blog"
+    },
+    {
+      "box": {
+        "h": 67,
+        "w": 65,
+        "x": 1006,
+        "y": 24
+      },
+      "class": "nav-link smoth-animation",
+      "color": "#fee4e9",
+      "depth": 9,
+      "font": "16px 500",
+      "href": "https://puvin.in/personal-portfolio-02/#contact",
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "box": {
+        "h": 25,
+        "w": 23,
+        "x": 1110,
+        "y": 47
+      },
+      "color": "#1f1f25",
+      "depth": 7,
+      "font": "18px 400",
+      "href": "https://puvin.in/cart/",
+      "tag": "a",
+      "text": "0"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 40,
+        "x": 1161,
+        "y": 38
+      },
+      "color": "#1d1d24bf",
+      "depth": 7,
+      "display": "flex",
+      "flex": "row",
+      "font": "18px 400",
+      "tag": "ul"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 40,
+        "x": 1161,
+        "y": 38
+      },
+      "class": "setColor dark",
+      "color": "#1f1f25",
+      "depth": 9,
+      "font": "18px 400",
+      "href": "javascript: void(0);",
+      "tag": "a"
+    },
+    {
+      "alt": "Vector Images",
+      "box": {
+        "h": 18,
+        "w": 18,
+        "x": 1172,
+        "y": 49
+      },
+      "color": "#1f1f25",
+      "depth": 10,
+      "font": "18px 400",
+      "src": "https://puvin.in/wp-content/themes/imroz/assets/images/icons/vector.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 60,
+        "w": 154,
+        "x": 1221,
+        "y": 28
+      },
+      "class": "btn-default btn-border btn-opacity",
+      "color": "#dcdcddf2",
+      "depth": 7,
+      "font": "16px 500",
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "tag": "a",
+      "text": "HIRE ME"
+    },
+    {
+      "box": {
+        "h": 7273,
+        "w": 1425,
+        "x": 0,
+        "y": 0
+      },
+      "class": "page-wrapper",
+      "color": "#1d1d24bf",
+      "depth": 3,
+      "display": "block",
+      "font": "18px 400",
+      "tag": "main"
+    },
+    {
+      "box": {
+        "h": 734,
+        "w": 1425,
+        "x": 0,
+        "y": 0
+      },
+      "class": "elementor-section elementor-top-section elementor-element elementor-element-6990a60 elementor-section-full_width element",
+      "color": "#1d1d24bf",
+      "depth": 5,
+      "display": "block",
+      "font": "18px 400",
+      "tag": "section"
+    },
+    {
+      "box": {
+        "h": 136,
+        "w": 861,
+        "x": 98,
+        "y": 275
+      },
+      "class": "title theme-gradient",
+      "color": "#ffffff",
+      "depth": 17,
+      "font": "54px 900",
+      "tag": "h1",
+      "text": "I’m Joe Biden JS Developer."
+    },
+    {
+      "box": {
+        "h": 70,
+        "w": 713,
+        "x": 98,
+        "y": 421
+      },
+      "class": "description",
+      "color": "#ffffff",
+      "depth": 17,
+      "font": "54px 400",
+      "tag": "p",
+      "text": "based in USA."
+    },
+    {
+      "box": {
+        "h": 63,
+        "w": 227,
+        "x": 98,
+        "y": 521
+      },
+      "class": "rbt-button rn-button-style--2 btn_border btn-size-md rbt-btn-gray",
+      "color": "#ffffff",
+      "depth": 18,
+      "font": "16px 500",
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "tag": "a",
+      "text": "DOWNLOAD CV"
+    },
+    {
+      "box": {
+        "h": 796,
+        "w": 1425,
+        "x": 0,
+        "y": 734
+      },
+      "class": "elementor-section elementor-top-section elementor-element elementor-element-2452563 elementor-section-full_width element",
+      "color": "#1d1d24bf",
+      "depth": 5,
+      "display": "block",
+      "font": "18px 400",
+      "id": "about",
+      "tag": "section"
+    },
+    {
+      "alt": "about-8",
+      "box": {
+        "h": 556,
+        "w": 483,
+        "x": 98,
+        "y": 854
+      },
+      "class": "attachment-full size-full wp-image-796",
+      "color": "#1d1d24bf",
+      "depth": 17,
+      "font": "18px 400",
+      "src": "https://puvin.in/wp-content/uploads/2021/10/about-8-1.jpg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 65,
+        "w": 697,
+        "x": 631,
+        "y": 902
+      },
+      "class": "title rbt-section-title",
+      "color": "#1f1f25",
+      "depth": 18,
+      "font": "50px 600",
+      "tag": "h2",
+      "text": "About Me"
+    },
+    {
+      "box": {
+        "h": 60,
+        "w": 697,
+        "x": 631,
+        "y": 1002
+      },
+      "color": "#1d1d24bf",
+      "depth": 18,
+      "font": "18px 300",
+      "tag": "p",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered in some form, by injected humour."
+    },
+    {
+      "box": {
+        "h": 51,
+        "w": 697,
+        "x": 631,
+        "y": 1092
+      },
+      "class": "nav nav-tabs tab-style--1",
+      "color": "#1d1d24bf",
+      "depth": 18,
+      "display": "flex",
+      "flex": "row",
+      "font": "18px 400",
+      "id": "myTab-e3a63db",
+      "role": "tablist",
+      "tag": "ul"
+    },
+    {
+      "background": "#fd4766",
+      "box": {
+        "h": 53,
+        "w": 150,
+        "x": 630,
+        "y": 1091
+      },
+      "class": "nav-link active",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "16px 600",
+      "href": "https://puvin.in/personal-portfolio-02/#rn-e3a63db-0",
+      "id": "tab-e3a63db-0",
+      "role": "tab",
+      "tag": "a",
+      "text": "Main skills"
+    },
+    {
+      "box": {
+        "h": 53,
+        "w": 128,
+        "x": 776,
+        "y": 1091
+      },
+      "class": "nav-link",
+      "color": "#1d1d24bf",
+      "depth": 20,
+      "font": "16px 600",
+      "href": "https://puvin.in/personal-portfolio-02/#rn-e3a63db-1",
+      "id": "tab-e3a63db-1",
+      "role": "tab",
+      "tag": "a",
+      "text": "Awards"
+    },
+    {
+      "box": {
+        "h": 53,
+        "w": 155,
+        "x": 900,
+        "y": 1091
+      },
+      "class": "nav-link",
+      "color": "#1d1d24bf",
+      "depth": 20,
+      "font": "16px 600",
+      "href": "https://puvin.in/personal-portfolio-02/#rn-e3a63db-2",
+      "id": "tab-e3a63db-2",
+      "role": "tab",
+      "tag": "a",
+      "text": "Experience"
+    },
+    {
+      "box": {
+        "h": 53,
+        "w": 269,
+        "x": 1051,
+        "y": 1091
+      },
+      "class": "nav-link",
+      "color": "#1d1d24bf",
+      "depth": 20,
+      "font": "16px 600",
+      "href": "https://puvin.in/personal-portfolio-02/#rn-e3a63db-3",
+      "id": "tab-e3a63db-3",
+      "role": "tab",
+      "tag": "a",
+      "text": "Education & Certification"
+    },
+    {
+      "box": {
+        "h": 240,
+        "w": 697,
+        "x": 631,
+        "y": 1144
+      },
+      "class": "tab-pane fade show active",
+      "color": "#1d1d24bf",
+      "depth": 19,
+      "font": "18px 400",
+      "id": "rn-e3a63db-0",
+      "role": "tabpanel",
+      "tag": "div",
+      "text": "User experience design - UI/UX Delight the user and make it work. Web and user interface design - Development Websites, web experiences, ... Interaction design - Animation I like to move it move it."
+    },
+    {
+      "box": {
+        "h": 210,
+        "w": 697,
+        "x": 631,
+        "y": 1174
+      },
+      "color": "#717173",
+      "depth": 21,
+      "display": "block",
+      "font": "18px 300",
+      "tag": "ul"
+    },
+    {
+      "box": {
+        "h": 30,
+        "w": 697,
+        "x": 631,
+        "y": 1174
+      },
+      "color": "#1f1f25",
+      "depth": 23,
+      "font": "16px 500",
+      "href": "https://puvin.in/personal-portfolio-02/service.html",
+      "tag": "a",
+      "text": "User experience design - UI/UX"
+    },
+    {
+      "box": {
+        "h": 30,
+        "w": 697,
+        "x": 631,
+        "y": 1249
+      },
+      "color": "#1f1f25",
+      "depth": 23,
+      "font": "16px 500",
+      "href": "https://puvin.in/personal-portfolio-02/service.html",
+      "tag": "a",
+      "text": "Web and user interface design - Development"
+    },
+    {
+      "box": {
+        "h": 30,
+        "w": 697,
+        "x": 631,
+        "y": 1324
+      },
+      "color": "#1f1f25",
+      "depth": 23,
+      "font": "16px 500",
+      "href": "https://puvin.in/personal-portfolio-02/service.html",
+      "tag": "a",
+      "text": "Interaction design - Animation"
+    },
+    {
+      "background": "#f9f9f9",
+      "box": {
+        "h": 1074,
+        "w": 1425,
+        "x": 0,
+        "y": 1530
+      },
+      "class": "elementor-section elementor-top-section elementor-element elementor-element-0ebe8fe elementor-section-full_width bg_colo",
+      "color": "#1d1d24bf",
+      "depth": 5,
+      "display": "block",
+      "font": "18px 400",
+      "id": "services",
+      "tag": "section"
+    },
+    {
+      "box": {
+        "h": 62,
+        "w": 1230,
+        "x": 98,
+        "y": 1687
+      },
+      "class": "title rbt-section-title",
+      "color": "#1f1f25",
+      "depth": 16,
+      "font": "50px 600",
+      "tag": "h2",
+      "text": "My Awesome Service"
+    },
+    {
+      "box": {
+        "h": 60,
+        "w": 1230,
+        "x": 98,
+        "y": 1769
+      },
+      "color": "#1d1d24bf",
+      "depth": 16,
+      "font": "18px 400",
+      "tag": "p",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
+    },
+    {
+      "box": {
+        "h": 287,
+        "w": 390,
+        "x": 98,
+        "y": 1879
+      },
+      "color": "#1f1f25",
+      "depth": 16,
+      "font": "18px 400",
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "tag": "a",
+      "text": "Business Stratagy There are many variations of passages of Lorem Ipsum available, but the majority have."
+    },
+    {
+      "box": {
+        "h": 47,
+        "w": 47,
+        "x": 128,
+        "y": 1919
+      },
+      "color": "#fd4766",
+      "depth": 19,
+      "font": "45px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 28,
+        "w": 330,
+        "x": 128,
+        "y": 1989
+      },
+      "class": "title",
+      "color": "#1f1f25",
+      "depth": 19,
+      "font": "20px 600",
+      "tag": "h3",
+      "text": "Business Stratagy"
+    },
+    {
+      "box": {
+        "h": 90,
+        "w": 330,
+        "x": 128,
+        "y": 2036
+      },
+      "color": "#1d1d24bf",
+      "depth": 19,
+      "font": "18px 400",
+      "tag": "p",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have."
+    },
+    {
+      "box": {
+        "h": 287,
+        "w": 390,
+        "x": 518,
+        "y": 1879
+      },
+      "color": "#1f1f25",
+      "depth": 16,
+      "font": "18px 400",
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "tag": "a",
+      "text": "Website Development It is a long established fact that a reader will be distracted by the readable content of a page."
+    },
+    {
+      "box": {
+        "h": 47,
+        "w": 47,
+        "x": 548,
+        "y": 1919
+      },
+      "color": "#fd4766",
+      "depth": 19,
+      "font": "45px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 28,
+        "w": 330,
+        "x": 548,
+        "y": 1989
+      },
+      "class": "title",
+      "color": "#1f1f25",
+      "depth": 19,
+      "font": "20px 600",
+      "tag": "h3",
+      "text": "Website Development"
+    },
+    {
+      "box": {
+        "h": 90,
+        "w": 330,
+        "x": 548,
+        "y": 2036
+      },
+      "color": "#1d1d24bf",
+      "depth": 19,
+      "font": "18px 400",
+      "tag": "p",
+      "text": "It is a long established fact that a reader will be distracted by the readable content of a page."
+    },
+    {
+      "box": {
+        "h": 287,
+        "w": 390,
+        "x": 938,
+        "y": 1879
+      },
+      "color": "#1f1f25",
+      "depth": 16,
+      "font": "18px 400",
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "tag": "a",
+      "text": "Marketing & Reporting Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in all."
+    },
+    {
+      "box": {
+        "h": 47,
+        "w": 47,
+        "x": 968,
+        "y": 1919
+      },
+      "color": "#fd4766",
+      "depth": 19,
+      "font": "45px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 28,
+        "w": 330,
+        "x": 968,
+        "y": 1989
+      },
+      "class": "title",
+      "color": "#1f1f25",
+      "depth": 19,
+      "font": "20px 600",
+      "tag": "h3",
+      "text": "Marketing & Reporting"
+    },
+    {
+      "box": {
+        "h": 90,
+        "w": 330,
+        "x": 968,
+        "y": 2036
+      },
+      "color": "#1d1d24bf",
+      "depth": 19,
+      "font": "18px 400",
+      "tag": "p",
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in all."
+    },
+    {
+      "box": {
+        "h": 287,
+        "w": 390,
+        "x": 98,
+        "y": 2196
+      },
+      "color": "#1f1f25",
+      "depth": 16,
+      "font": "18px 400",
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "tag": "a",
+      "text": "Mobile Development There are many variations of passages of Lorem Ipsum available, but the majority."
+    },
+    {
+      "box": {
+        "h": 47,
+        "w": 47,
+        "x": 128,
+        "y": 2236
+      },
+      "color": "#fd4766",
+      "depth": 19,
+      "font": "45px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 28,
+        "w": 330,
+        "x": 128,
+        "y": 2306
+      },
+      "class": "title",
+      "color": "#1f1f25",
+      "depth": 19,
+      "font": "20px 600",
+      "tag": "h3",
+      "text": "Mobile Development"
+    },
+    {
+      "box": {
+        "h": 90,
+        "w": 330,
+        "x": 128,
+        "y": 2353
+      },
+      "color": "#1d1d24bf",
+      "depth": 19,
+      "font": "18px 400",
+      "tag": "p",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority."
+    },
+    {
+      "box": {
+        "h": 287,
+        "w": 390,
+        "x": 518,
+        "y": 2196
+      },
+      "color": "#1f1f25",
+      "depth": 16,
+      "font": "18px 400",
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "tag": "a",
+      "text": "Marketing & Reporting The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section."
+    },
+    {
+      "box": {
+        "h": 47,
+        "w": 47,
+        "x": 548,
+        "y": 2236
+      },
+      "color": "#fd4766",
+      "depth": 19,
+      "font": "45px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 28,
+        "w": 330,
+        "x": 548,
+        "y": 2306
+      },
+      "class": "title",
+      "color": "#1f1f25",
+      "depth": 19,
+      "font": "20px 600",
+      "tag": "h3",
+      "text": "Marketing & Reporting"
+    },
+    {
+      "box": {
+        "h": 90,
+        "w": 330,
+        "x": 548,
+        "y": 2353
+      },
+      "color": "#1d1d24bf",
+      "depth": 19,
+      "font": "18px 400",
+      "tag": "p",
+      "text": "The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section."
+    },
+    {
+      "box": {
+        "h": 287,
+        "w": 390,
+        "x": 938,
+        "y": 2196
+      },
+      "color": "#1f1f25",
+      "depth": 16,
+      "font": "18px 400",
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "tag": "a",
+      "text": "App Development Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium."
+    },
+    {
+      "box": {
+        "h": 47,
+        "w": 47,
+        "x": 968,
+        "y": 2236
+      },
+      "color": "#fd4766",
+      "depth": 19,
+      "font": "45px 400",
+      "tag": "svg"
+    },
+    {
+      "box": {
+        "h": 28,
+        "w": 330,
+        "x": 968,
+        "y": 2306
+      },
+      "class": "title",
+      "color": "#1f1f25",
+      "depth": 19,
+      "font": "20px 600",
+      "tag": "h3",
+      "text": "App Development"
+    },
+    {
+      "box": {
+        "h": 90,
+        "w": 330,
+        "x": 968,
+        "y": 2353
+      },
+      "color": "#1d1d24bf",
+      "depth": 19,
+      "font": "18px 400",
+      "tag": "p",
+      "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium."
+    },
+    {
+      "box": {
+        "h": 1632,
+        "w": 1425,
+        "x": 0,
+        "y": 2603
+      },
+      "class": "elementor-section elementor-top-section elementor-element elementor-element-7871b7c elementor-section-full_width element",
+      "color": "#1d1d24bf",
+      "depth": 5,
+      "display": "block",
+      "font": "18px 400",
+      "id": "portfolio",
+      "tag": "section"
+    },
+    {
+      "box": {
+        "h": 62,
+        "w": 1230,
+        "x": 98,
+        "y": 2760
+      },
+      "class": "title rbt-section-title",
+      "color": "#1f1f25",
+      "depth": 16,
+      "font": "50px 600",
+      "tag": "h2",
+      "text": "My Latest Project"
+    },
+    {
+      "box": {
+        "h": 60,
+        "w": 1230,
+        "x": 98,
+        "y": 2842
+      },
+      "color": "#1d1d24bf",
+      "depth": 16,
+      "font": "18px 400",
+      "tag": "p",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
+    },
+    {
+      "box": {
+        "h": 27,
+        "w": 112,
+        "x": 138,
+        "y": 3272
+      },
+      "color": "#ffffff",
+      "depth": 18,
+      "font": "16px 300",
+      "tag": "p",
+      "text": "Development"
+    },
+    {
+      "box": {
+        "h": 42,
+        "w": 310,
+        "x": 138,
+        "y": 3314
+      },
+      "color": "#ffffff",
+      "depth": 18,
+      "font": "30px 600",
+      "tag": "h4",
+      "text": "Game Development"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 306,
+        "x": 138,
+        "y": 3313
+      },
+      "color": "#ffffff",
+      "depth": 19,
+      "font": "30px 600",
+      "href": "https://puvin.in/portfolio/game-development/",
+      "tag": "a",
+      "text": "Game Development"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 132,
+        "x": 138,
+        "y": 3382
+      },
+      "class": "rn-btn",
+      "color": "#ffffff",
+      "depth": 19,
+      "font": "14px 400",
+      "href": "https://puvin.in/portfolio/game-development/",
+      "tag": "a",
+      "text": "Case Study"
+    },
+    {
+      "box": {
+        "h": 500,
+        "w": 390,
+        "x": 98,
+        "y": 2962
+      },
+      "class": "transparent-link",
+      "color": "#1f1f25",
+      "depth": 16,
+      "font": "18px 400",
+      "href": "https://puvin.in/portfolio/game-development/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 27,
+        "w": 112,
+        "x": 558,
+        "y": 3230
+      },
+      "color": "#ffffff",
+      "depth": 18,
+      "font": "16px 300",
+      "tag": "p",
+      "text": "Development"
+    },
+    {
+      "box": {
+        "h": 84,
+        "w": 310,
+        "x": 558,
+        "y": 3272
+      },
+      "color": "#ffffff",
+      "depth": 18,
+      "font": "30px 600",
+      "tag": "h4",
+      "text": "Reporting Development"
+    },
+    {
+      "box": {
+        "h": 85,
+        "w": 206,
+        "x": 558,
+        "y": 3271
+      },
+      "color": "#ffffff",
+      "depth": 19,
+      "font": "30px 600",
+      "href": "https://puvin.in/portfolio/reporting-development/",
+      "tag": "a",
+      "text": "Reporting Development"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 132,
+        "x": 558,
+        "y": 3382
+      },
+      "class": "rn-btn",
+      "color": "#ffffff",
+      "depth": 19,
+      "font": "14px 400",
+      "href": "https://puvin.in/portfolio/reporting-development/",
+      "tag": "a",
+      "text": "Case Study"
+    },
+    {
+      "box": {
+        "h": 500,
+        "w": 390,
+        "x": 518,
+        "y": 2962
+      },
+      "class": "transparent-link",
+      "color": "#1f1f25",
+      "depth": 16,
+      "font": "18px 400",
+      "href": "https://puvin.in/portfolio/reporting-development/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 27,
+        "w": 212,
+        "x": 978,
+        "y": 3272
+      },
+      "color": "#ffffff",
+      "depth": 18,
+      "font": "16px 300",
+      "tag": "p",
+      "text": "Application Development"
+    },
+    {
+      "box": {
+        "h": 42,
+        "w": 310,
+        "x": 978,
+        "y": 3314
+      },
+      "color": "#ffffff",
+      "depth": 18,
+      "font": "30px 600",
+      "tag": "h4",
+      "text": "SEO Marketing"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 221,
+        "x": 978,
+        "y": 3313
+      },
+      "color": "#ffffff",
+      "depth": 19,
+      "font": "30px 600",
+      "href": "https://puvin.in/portfolio/seo-marketing/",
+      "tag": "a",
+      "text": "SEO Marketing"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 132,
+        "x": 978,
+        "y": 3382
+      },
+      "class": "rn-btn",
+      "color": "#ffffff",
+      "depth": 19,
+      "font": "14px 400",
+      "href": "https://puvin.in/portfolio/seo-marketing/",
+      "tag": "a",
+      "text": "Case Study"
+    },
+    {
+      "box": {
+        "h": 500,
+        "w": 390,
+        "x": 938,
+        "y": 2962
+      },
+      "class": "transparent-link",
+      "color": "#1f1f25",
+      "depth": 16,
+      "font": "18px 400",
+      "href": "https://puvin.in/portfolio/seo-marketing/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 27,
+        "w": 112,
+        "x": 138,
+        "y": 3802
+      },
+      "color": "#ffffff",
+      "depth": 18,
+      "font": "16px 300",
+      "tag": "p",
+      "text": "Development"
+    },
+    {
+      "box": {
+        "h": 42,
+        "w": 310,
+        "x": 138,
+        "y": 3844
+      },
+      "color": "#ffffff",
+      "depth": 18,
+      "font": "30px 600",
+      "tag": "h4",
+      "text": "Web Design"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 182,
+        "x": 138,
+        "y": 3843
+      },
+      "color": "#ffffff",
+      "depth": 19,
+      "font": "30px 600",
+      "href": "https://puvin.in/portfolio/web-design/",
+      "tag": "a",
+      "text": "Web Design"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 132,
+        "x": 138,
+        "y": 3912
+      },
+      "class": "rn-btn",
+      "color": "#ffffff",
+      "depth": 19,
+      "font": "14px 400",
+      "href": "https://puvin.in/portfolio/web-design/",
+      "tag": "a",
+      "text": "Case Study"
+    },
+    {
+      "box": {
+        "h": 500,
+        "w": 390,
+        "x": 98,
+        "y": 3492
+      },
+      "class": "transparent-link",
+      "color": "#1f1f25",
+      "depth": 16,
+      "font": "18px 400",
+      "href": "https://puvin.in/portfolio/web-design/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 27,
+        "w": 112,
+        "x": 558,
+        "y": 3802
+      },
+      "color": "#ffffff",
+      "depth": 18,
+      "font": "16px 300",
+      "tag": "p",
+      "text": "Development"
+    },
+    {
+      "box": {
+        "h": 42,
+        "w": 310,
+        "x": 558,
+        "y": 3844
+      },
+      "color": "#ffffff",
+      "depth": 18,
+      "font": "30px 600",
+      "tag": "h4",
+      "text": "App Development"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 275,
+        "x": 558,
+        "y": 3843
+      },
+      "color": "#ffffff",
+      "depth": 19,
+      "font": "30px 600",
+      "href": "https://puvin.in/portfolio/app-development/",
+      "tag": "a",
+      "text": "App Development"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 132,
+        "x": 558,
+        "y": 3912
+      },
+      "class": "rn-btn",
+      "color": "#ffffff",
+      "depth": 19,
+      "font": "14px 400",
+      "href": "https://puvin.in/portfolio/app-development/",
+      "tag": "a",
+      "text": "Case Study"
+    },
+    {
+      "box": {
+        "h": 500,
+        "w": 390,
+        "x": 518,
+        "y": 3492
+      },
+      "class": "transparent-link",
+      "color": "#1f1f25",
+      "depth": 16,
+      "font": "18px 400",
+      "href": "https://puvin.in/portfolio/app-development/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 27,
+        "w": 89,
+        "x": 978,
+        "y": 3802
+      },
+      "color": "#ffffff",
+      "depth": 18,
+      "font": "16px 300",
+      "tag": "p",
+      "text": "Photoshop"
+    },
+    {
+      "box": {
+        "h": 42,
+        "w": 310,
+        "x": 978,
+        "y": 3844
+      },
+      "color": "#ffffff",
+      "depth": 18,
+      "font": "30px 600",
+      "tag": "h4",
+      "text": "Photoshop Design"
+    },
+    {
+      "box": {
+        "h": 43,
+        "w": 276,
+        "x": 978,
+        "y": 3843
+      },
+      "color": "#ffffff",
+      "depth": 19,
+      "font": "30px 600",
+      "href": "https://puvin.in/portfolio/photoshop-design/",
+      "tag": "a",
+      "text": "Photoshop Design"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 132,
+        "x": 978,
+        "y": 3912
+      },
+      "class": "rn-btn",
+      "color": "#ffffff",
+      "depth": 19,
+      "font": "14px 400",
+      "href": "https://puvin.in/portfolio/photoshop-design/",
+      "tag": "a",
+      "text": "Case Study"
+    },
+    {
+      "box": {
+        "h": 500,
+        "w": 390,
+        "x": 938,
+        "y": 3492
+      },
+      "class": "transparent-link",
+      "color": "#1f1f25",
+      "depth": 16,
+      "font": "18px 400",
+      "href": "https://puvin.in/portfolio/photoshop-design/",
+      "tag": "a"
+    },
+    {
+      "background": "#fd4766",
+      "box": {
+        "h": 63,
+        "w": 282,
+        "x": 571,
+        "y": 4052
+      },
+      "class": "btn-default",
+      "color": "#ffffff",
+      "depth": 16,
+      "font": "16px 500",
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "tag": "a",
+      "text": "VIEW MORE PROJECT"
+    },
+    {
+      "box": {
+        "h": 1094,
+        "w": 1425,
+        "x": 0,
+        "y": 4235
+      },
+      "class": "elementor-section elementor-top-section elementor-element elementor-element-5138ab9 elementor-section-full_width element",
+      "color": "#1d1d24bf",
+      "depth": 5,
+      "display": "block",
+      "font": "18px 400",
+      "id": "pricing",
+      "tag": "section"
+    },
+    {
+      "box": {
+        "h": 62,
+        "w": 1230,
+        "x": 98,
+        "y": 4392
+      },
+      "class": "title rbt-section-title",
+      "color": "#1f1f25",
+      "depth": 16,
+      "font": "50px 600",
+      "tag": "h2",
+      "text": "Pricing Plan"
+    },
+    {
+      "box": {
+        "h": 60,
+        "w": 1230,
+        "x": 98,
+        "y": 4474
+      },
+      "color": "#1d1d24bf",
+      "depth": 16,
+      "font": "18px 400",
+      "tag": "p",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
+    },
+    {
+      "box": {
+        "h": 206,
+        "w": 306,
+        "x": 140,
+        "y": 4863
+      },
+      "class": "list-style--1",
+      "color": "#1d1d24bf",
+      "depth": 18,
+      "display": "block",
+      "font": "18px 400",
+      "tag": "ul"
+    },
+    {
+      "box": {
+        "h": 63,
+        "w": 236,
+        "x": 175,
+        "y": 5105
+      },
+      "class": "rn-button-style--2 btn_border btn-size-md",
+      "color": "#fd4766",
+      "depth": 18,
+      "font": "16px 500",
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "tag": "a",
+      "text": "PURCHASE NOW"
+    },
+    {
+      "box": {
+        "h": 206,
+        "w": 306,
+        "x": 560,
+        "y": 4863
+      },
+      "class": "list-style--1",
+      "color": "#1d1d24bf",
+      "depth": 18,
+      "display": "block",
+      "font": "18px 400",
+      "tag": "ul"
+    },
+    {
+      "background": "#ffffff",
+      "box": {
+        "h": 63,
+        "w": 236,
+        "x": 595,
+        "y": 5105
+      },
+      "class": "rn-button-style--2 btn_border btn-size-md",
+      "color": "#fd4766",
+      "depth": 18,
+      "font": "16px 500",
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "tag": "a",
+      "text": "PURCHASE NOW"
+    },
+    {
+      "box": {
+        "h": 206,
+        "w": 306,
+        "x": 980,
+        "y": 4863
+      },
+      "class": "list-style--1",
+      "color": "#1d1d24bf",
+      "depth": 18,
+      "display": "block",
+      "font": "18px 400",
+      "tag": "ul"
+    },
+    {
+      "box": {
+        "h": 63,
+        "w": 236,
+        "x": 1015,
+        "y": 5105
+      },
+      "class": "rn-button-style--2 btn_border btn-size-md",
+      "color": "#fd4766",
+      "depth": 18,
+      "font": "16px 500",
+      "href": "https://puvin.in/personal-portfolio-02/#",
+      "tag": "a",
+      "text": "PURCHASE NOW"
+    },
+    {
+      "box": {
+        "h": 1011,
+        "w": 1425,
+        "x": 0,
+        "y": 5330
+      },
+      "class": "elementor-section elementor-top-section elementor-element elementor-element-848ce01 elementor-section-full_width element",
+      "color": "#1d1d24bf",
+      "depth": 5,
+      "display": "block",
+      "font": "18px 400",
+      "id": "blog",
+      "tag": "section"
+    },
+    {
+      "box": {
+        "h": 62,
+        "w": 1230,
+        "x": 98,
+        "y": 5487
+      },
+      "class": "title rbt-section-title",
+      "color": "#1f1f25",
+      "depth": 16,
+      "font": "50px 600",
+      "tag": "h2",
+      "text": "Latest News"
+    },
+    {
+      "box": {
+        "h": 60,
+        "w": 1230,
+        "x": 98,
+        "y": 5569
+      },
+      "color": "#1d1d24bf",
+      "depth": 16,
+      "font": "18px 400",
+      "tag": "p",
+      "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
+    },
+    {
+      "box": {
+        "h": 532,
+        "w": 390,
+        "x": 98,
+        "y": 5689
+      },
+      "color": "#1f1f25",
+      "depth": 17,
+      "font": "18px 400",
+      "href": "https://puvin.in/2021/09/09/have-you-heard-agency-is-your-best-bet-to-grow/",
+      "tag": "a"
+    },
+    {
+      "alt": "new-blog-07",
+      "box": {
+        "h": 532,
+        "w": 390,
+        "x": 98,
+        "y": 5689
+      },
+      "class": "w-100 wp-post-image",
+      "color": "#1f1f25",
+      "depth": 18,
+      "font": "18px 400",
+      "src": "https://puvin.in/wp-content/uploads/2021/09/new-blog-07-scaled-2-390x532.jpg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 72,
+        "w": 330,
+        "x": 128,
+        "y": 6119
+      },
+      "class": "title",
+      "color": "#1f1f25",
+      "depth": 19,
+      "font": "24px 600",
+      "tag": "h4",
+      "text": "Have You Heard? Agency Is Your Best Bet To Grow"
+    },
+    {
+      "box": {
+        "h": 72,
+        "w": 330,
+        "x": 128,
+        "y": 6119
+      },
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "24px 500",
+      "href": "https://puvin.in/2021/09/09/have-you-heard-agency-is-your-best-bet-to-grow/",
+      "tag": "a",
+      "text": "Have You Heard? Agency Is Your Best Bet To Grow"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 127,
+        "x": 128,
+        "y": 6166
+      },
+      "class": "rn-btn btn-opacity",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "14px 400",
+      "href": "https://puvin.in/2021/09/09/have-you-heard-agency-is-your-best-bet-to-grow/",
+      "tag": "a",
+      "text": "Read More"
+    },
+    {
+      "box": {
+        "h": 532,
+        "w": 390,
+        "x": 518,
+        "y": 5689
+      },
+      "color": "#1f1f25",
+      "depth": 17,
+      "font": "18px 400",
+      "href": "https://puvin.in/2021/09/09/agency-works-only-under-these-conditions/",
+      "tag": "a"
+    },
+    {
+      "alt": "new-blog-06",
+      "box": {
+        "h": 532,
+        "w": 390,
+        "x": 518,
+        "y": 5689
+      },
+      "class": "w-100 wp-post-image",
+      "color": "#1f1f25",
+      "depth": 18,
+      "font": "18px 400",
+      "src": "https://puvin.in/wp-content/uploads/2021/09/new-blog-06-scaled-2-390x532.jpg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 72,
+        "w": 330,
+        "x": 548,
+        "y": 6119
+      },
+      "class": "title",
+      "color": "#1f1f25",
+      "depth": 19,
+      "font": "24px 600",
+      "tag": "h4",
+      "text": "Agency Works Only Under These Conditions"
+    },
+    {
+      "box": {
+        "h": 72,
+        "w": 330,
+        "x": 548,
+        "y": 6119
+      },
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "24px 500",
+      "href": "https://puvin.in/2021/09/09/agency-works-only-under-these-conditions/",
+      "tag": "a",
+      "text": "Agency Works Only Under These Conditions"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 127,
+        "x": 548,
+        "y": 6166
+      },
+      "class": "rn-btn btn-opacity",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "14px 400",
+      "href": "https://puvin.in/2021/09/09/agency-works-only-under-these-conditions/",
+      "tag": "a",
+      "text": "Read More"
+    },
+    {
+      "box": {
+        "h": 532,
+        "w": 390,
+        "x": 938,
+        "y": 5689
+      },
+      "color": "#1f1f25",
+      "depth": 17,
+      "font": "18px 400",
+      "href": "https://puvin.in/2021/09/09/top-10-tips-to-grow-your-agency/",
+      "tag": "a"
+    },
+    {
+      "alt": "new-blog-05",
+      "box": {
+        "h": 532,
+        "w": 390,
+        "x": 938,
+        "y": 5689
+      },
+      "class": "w-100 wp-post-image",
+      "color": "#1f1f25",
+      "depth": 18,
+      "font": "18px 400",
+      "src": "https://puvin.in/wp-content/uploads/2021/09/new-blog-05-scaled-2-390x532.jpg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 72,
+        "w": 330,
+        "x": 968,
+        "y": 6119
+      },
+      "class": "title",
+      "color": "#1f1f25",
+      "depth": 19,
+      "font": "24px 600",
+      "tag": "h4",
+      "text": "Top 10 Tips To Grow Your Agency"
+    },
+    {
+      "box": {
+        "h": 72,
+        "w": 330,
+        "x": 968,
+        "y": 6119
+      },
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "24px 500",
+      "href": "https://puvin.in/2021/09/09/top-10-tips-to-grow-your-agency/",
+      "tag": "a",
+      "text": "Top 10 Tips To Grow Your Agency"
+    },
+    {
+      "box": {
+        "h": 40,
+        "w": 127,
+        "x": 968,
+        "y": 6166
+      },
+      "class": "rn-btn btn-opacity",
+      "color": "#ffffff",
+      "depth": 20,
+      "font": "14px 400",
+      "href": "https://puvin.in/2021/09/09/top-10-tips-to-grow-your-agency/",
+      "tag": "a",
+      "text": "Read More"
+    },
+    {
+      "box": {
+        "h": 932,
+        "w": 1425,
+        "x": 0,
+        "y": 6341
+      },
+      "class": "elementor-section elementor-top-section elementor-element elementor-element-c684ad7 elementor-section-full_width element",
+      "color": "#1d1d24bf",
+      "depth": 5,
+      "display": "block",
+      "font": "18px 400",
+      "id": "contact",
+      "tag": "section"
+    },
+    {
+      "box": {
+        "h": 62,
+        "w": 590,
+        "x": 98,
+        "y": 6498
+      },
+      "class": "title rbt-section-title",
+      "color": "#1f1f25",
+      "depth": 17,
+      "font": "50px 600",
+      "tag": "h2",
+      "text": "Hire Me."
+    },
+    {
+      "box": {
+        "h": 60,
+        "w": 590,
+        "x": 98,
+        "y": 6580
+      },
+      "color": "#1d1d24bf",
+      "depth": 17,
+      "font": "18px 400",
+      "tag": "p",
+      "text": "Call us directly: +111 (0)55 5869 8976 Contact Email: example@gmail.com"
+    },
+    {
+      "box": {
+        "h": 25,
+        "w": 189,
+        "x": 238,
+        "y": 6582
+      },
+      "class": "link im-hover",
+      "color": "#1d1d24",
+      "depth": 18,
+      "font": "18px 500",
+      "href": "tel:+11105558698976",
+      "tag": "a",
+      "text": "+111 (0)55 5869 8976"
+    },
+    {
+      "box": {
+        "h": 25,
+        "w": 195,
+        "x": 233,
+        "y": 6612
+      },
+      "class": "link im-hover",
+      "color": "#1d1d24",
+      "depth": 18,
+      "font": "18px 500",
+      "href": "mailto:example@gmail.com",
+      "tag": "a",
+      "text": "example@gmail.com"
+    },
+    {
+      "box": {
+        "h": 463,
+        "w": 590,
+        "x": 98,
+        "y": 6690
+      },
+      "class": "wpcf7-form init",
+      "color": "#1d1d24bf",
+      "depth": 18,
+      "display": "block",
+      "font": "18px 400",
+      "tag": "form"
+    },
+    {
+      "box": {
+        "h": 50,
+        "w": 590,
+        "x": 98,
+        "y": 6690
+      },
+      "class": "wpcf7-form-control wpcf7-text wpcf7-validates-as-required",
+      "color": "#1f1f25",
+      "depth": 22,
+      "font": "15px 400",
+      "name": "your-name",
+      "placeholder": "Your Name *",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "box": {
+        "h": 50,
+        "w": 590,
+        "x": 98,
+        "y": 6760
+      },
+      "class": "wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email",
+      "color": "#1f1f25",
+      "depth": 22,
+      "font": "15px 400",
+      "name": "your-email",
+      "placeholder": "Your Email *",
+      "tag": "input",
+      "type": "email"
+    },
+    {
+      "box": {
+        "h": 50,
+        "w": 590,
+        "x": 98,
+        "y": 6830
+      },
+      "class": "wpcf7-form-control wpcf7-text",
+      "color": "#1f1f25",
+      "depth": 22,
+      "font": "15px 400",
+      "name": "your-subject",
+      "placeholder": "Your Subject",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "box": {
+        "h": 120,
+        "w": 590,
+        "x": 98,
+        "y": 6900
+      },
+      "class": "wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required",
+      "color": "#1f1f25",
+      "depth": 22,
+      "font": "15px 400",
+      "name": "your-message",
+      "placeholder": "Your Message *",
+      "tag": "textarea",
+      "type": "textarea"
+    },
+    {
+      "background": "#fd4766",
+      "box": {
+        "h": 50,
+        "w": 136,
+        "x": 98,
+        "y": 7050
+      },
+      "class": "wpcf7-form-control wpcf7-submit has-spinner btn-default",
+      "color": "#ffffff",
+      "depth": 22,
+      "font": "15px 500",
+      "id": "btn",
+      "name": "",
+      "placeholder": "",
+      "tag": "input",
+      "type": "submit"
+    },
+    {
+      "alt": "about-13",
+      "box": {
+        "h": 627,
+        "w": 590,
+        "x": 738,
+        "y": 6461
+      },
+      "class": "elementor-animation-disable-animation attachment-full size-full wp-image-802",
+      "color": "#1d1d24bf",
+      "depth": 17,
+      "font": "18px 400",
+      "src": "https://puvin.in/wp-content/uploads/2021/10/about-13-1.jpg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 65,
+        "w": 422,
+        "x": 50,
+        "y": 7303
+      },
+      "color": "#fd4766",
+      "depth": 9,
+      "font": "39px 700",
+      "href": "https://puvin.in/",
+      "tag": "a"
+    },
+    {
+      "alt": "Poorni",
+      "box": {
+        "h": 60,
+        "w": 272,
+        "x": 50,
+        "y": 7308
+      },
+      "color": "#fd4766",
+      "depth": 10,
+      "font": "39px 700",
+      "src": "https://puvin.in/wp-content/uploads/2026/09/Poornima-Logo.svg",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 62,
+        "w": 434,
+        "x": 496,
+        "y": 7307
+      },
+      "class": "social-share rn-lg-size d-flex justify-content-center liststyle",
+      "color": "#1d1d24bf",
+      "depth": 8,
+      "display": "flex",
+      "flex": "row",
+      "font": "18px 400",
+      "tag": "ul"
+    },
+    {
+      "box": {
+        "h": 50,
+        "w": 50,
+        "x": 564,
+        "y": 7313
+      },
+      "class": "facebook-f",
+      "color": "#c6c9d8bf",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "https://www.facebook.com/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 50,
+        "w": 50,
+        "x": 626,
+        "y": 7313
+      },
+      "class": "twitter",
+      "color": "#c6c9d8bf",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "https://twitter.com/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 50,
+        "w": 50,
+        "x": 688,
+        "y": 7313
+      },
+      "class": "linkedin-in",
+      "color": "#c6c9d8bf",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "https://linkedin.com/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 50,
+        "w": 50,
+        "x": 750,
+        "y": 7313
+      },
+      "class": "instagram",
+      "color": "#c6c9d8bf",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "https://instagram.com/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 50,
+        "w": 50,
+        "x": 812,
+        "y": 7313
+      },
+      "class": "dribbble",
+      "color": "#c6c9d8bf",
+      "depth": 10,
+      "font": "16px 400",
+      "href": "https://dribbble.com/",
+      "tag": "a"
+    },
+    {
+      "box": {
+        "h": 23,
+        "w": 422,
+        "x": 953,
+        "y": 7323
+      },
+      "color": "#757575",
+      "depth": 9,
+      "font": "14px 400",
+      "tag": "p",
+      "text": "Copyright © 2026 All rights reserved by Poornima."
+    }
+  ],
+  "page": {
+    "h": 7398,
+    "w": 1425
+  },
+  "text": "Home About Services Portfolio Pricing Blog Contact 0 HIRE ME FREELANCE DIGITAL DESIGNER I’m Joe Biden JS Developer. based in USA. DOWNLOAD CV My About Details About Me There are many variations of passages of Lorem Ipsum available, but the majority have suffered in some form, by injected humour. Main skills Awards Experience Education & Certification User experience design - UI/UX Delight the user and make it work. Web and user interface design - Development Websites, web experiences, ... Interaction design - Animation I like to move it move it. What we can do for you My Awesome Service There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration. Business Stratagy There are many variations of passages of Lorem Ipsum available, but the majority have. Website Development It is a long established fact that a reader will be distracted by the readable content of a page. Marketing & Reporting Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in all. Mobile Development There are many variations of passages of Lorem Ipsum available, but the majority. Marketing & Reporting The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section. App Development Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. My complete project My Latest Project There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration. Development Game Development Case Study Development Reporting Development Case Study Application Development SEO Marketing Case Study Development Web Design Case Study Development App Development Case Study Photoshop Photoshop Design Case Study VIEW MORE PROJECT My Budget Plan Pricing Plan There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration. Basic $45 USD Per Month 5 PPC Campaigns Per Day 10 Digital Marketing 10 Marketing Agency 10 Facebook Marketing 10 Video Camplaigns PURCHASE NOW Medium $99 USD Per Month 50 PPC Campaigns Per Day 100 Digital Marketing 100 Marketing Agency 100 Facebook Marketing 100 Video Camplaigns PURCHASE NOW Advanced $199 USD Per Month 5 PPC Campaigns Per Day Unlimited Digital Marketing Unlimited Marketing Agency Unlimited Facebook Marketing Unlimited Video Camplaigns PURCHASE NOW what's stories on Latest News There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration. Development Have You Heard? Agency Is Your Best Bet To Grow Read More Gallery Agency Works Only Under These Conditions Read More Development Top 10 Tips To Grow Your Agency Read More Let's Say Hi Hire Me. Call us directly: +111 (0)55 5869 8976 Contact Email: example@gmail.com Copyright © 2026 All rights reserved by Poornima.",
+  "title": "Personal Portfolio 02 – Poorni",
+  "unreadable_stylesheets": 1,
+  "url": "https://puvin.in/personal-portfolio-02/",
+  "viewport": {
+    "h": 900,
+    "w": 1440
+  }
+}

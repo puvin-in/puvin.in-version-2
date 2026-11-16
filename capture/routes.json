@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/main-demo/",
+    "slug": "main-demo",
+    "url": "https://puvin.in/main-demo/"
+  },
+  {
+    "path": "/corporate-agency/",
+    "slug": "corporate-agency",
+    "url": "https://puvin.in/corporate-agency/"
+  },
+  {
+    "path": "/personal-portfolio-02/",
+    "slug": "personal-portfolio-02",
+    "url": "https://puvin.in/personal-portfolio-02/"
+  },
+  {
+    "path": "/minimal-portfolio/",
+    "slug": "minimal-portfolio",
+    "url": "https://puvin.in/minimal-portfolio/"
+  }
+]

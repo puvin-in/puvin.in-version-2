@@ -1,0 +1,23 @@
+node_modules/
+dist/
+out-tsc/
+coverage/
+*.tsbuildinfo
+.angular/
+.data/
+uploads/
+backups/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+test-results/
+playwright-report/
+# Generated visual-check and investigation archives
+checks/
+investigation.cany/

@@ -1,0 +1,14 @@
+services:
+  puvin:
+    build: .
+    env_file: .env
+    ports:
+      - "8080:8080"
+    volumes:
+      - puvin_data:/data
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+
+volumes:
+  puvin_data:

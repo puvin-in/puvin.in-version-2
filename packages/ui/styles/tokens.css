@@ -1,0 +1,90 @@
+/*
+ * PUVIN design tokens (docs/BLUEPRINT.md §8), shared by the website and admin apps.
+ * Import after `@import 'tailwindcss';`. Dark is the default theme; --pv-accent and
+ * --pv-accent-2 can be overridden at runtime from CMS branding settings.
+ */
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+:root {
+  --pv-bg: #f8fafc;
+  --pv-surface: #ffffff;
+  --pv-surface-2: #f1f5f9;
+  --pv-border: rgb(15 23 42 / 0.1);
+  --pv-text: #0f172a;
+  --pv-muted: #475569;
+  --pv-accent: #6d28d9;
+  --pv-accent-2: #0891b2;
+  --pv-success: #059669;
+  --pv-warning: #b45309;
+  --pv-error: #dc2626;
+  --pv-glow: rgb(109 40 217 / 0.12);
+}
+
+[data-theme='dark'] {
+  --pv-bg: #090b12;
+  --pv-surface: #111827;
+  --pv-surface-2: #1a2233;
+  --pv-border: rgb(148 163 184 / 0.14);
+  --pv-text: #f8fafc;
+  --pv-muted: #94a3b8;
+  --pv-accent: #7c3aed;
+  --pv-accent-2: #22d3ee;
+  --pv-success: #10b981;
+  --pv-warning: #f59e0b;
+  --pv-error: #ef4444;
+  --pv-glow: rgb(124 58 237 / 0.22);
+}
+
+@theme inline {
+  --color-bg: var(--pv-bg);
+  --color-surface: var(--pv-surface);
+  --color-surface-2: var(--pv-surface-2);
+  --color-border: var(--pv-border);
+  --color-text: var(--pv-text);
+  --color-muted: var(--pv-muted);
+  --color-accent: var(--pv-accent);
+  --color-accent-2: var(--pv-accent-2);
+  --color-success: var(--pv-success);
+  --color-warning: var(--pv-warning);
+  --color-error: var(--pv-error);
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Space Grotesk Variable', 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, monospace;
+}
+
+@layer base {
+  html {
+    background-color: var(--pv-bg);
+    color: var(--pv-text);
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-bg font-sans text-text antialiased;
+    min-height: 100dvh;
+    overflow-x: clip;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--pv-accent-2);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--pv-accent) 35%, transparent);
+  }
+}
+
+@layer components {
+  .pv-card {
+    @apply rounded-2xl border border-border bg-surface/70 backdrop-blur-sm;
+    transition:
+      border-color 200ms ease-out,
+      box-shadow 200ms ease-out,
+      transform 200ms ease-out;
+  }
+
+  .pv-eyebrow {
+    @apply font-mono text-xs font-medium tracking-[0.18em] text-accent-2 uppercase;
+  }
+}

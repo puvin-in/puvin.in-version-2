@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How articles will look (sample) | PUVIN</title>
+<meta name="description" content="A clearly marked sample article showing the PUVIN reading layout.">
+<meta name="theme-color" content="#080808">
+<meta name="color-scheme" content="dark">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://puvin.in/blog/layout-preview/">
+<meta property="og:site_name" content="PUVIN">
+<meta property="og:type" content="website">
+<meta property="og:title" content="How articles will look (sample) | PUVIN">
+<meta property="og:description" content="A clearly marked sample article showing the PUVIN reading layout.">
+<meta property="og:url" content="https://puvin.in/blog/layout-preview/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap">
+<link rel="stylesheet" href="/assets/css/site.css">
+<script src="/assets/js/config.js"></script>
+<script>
+(function () {
+  var html = document.documentElement;
+  html.classList.add('js');
+  try {
+    var wanted = false && window.PUVIN_CONFIG.loader !== false;
+    if (wanted && !navigator.webdriver && !sessionStorage.getItem('puvin-booted')) html.classList.add('booting');
+  } catch (e) {}
+})();
+</script>
+<script src="/assets/js/site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="progress" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"><b></b></div>
+<header class="site-header">
+  <a class="brand" href="/" aria-label="PUVIN.IN home">PUVIN<span>.IN</span></a>
+  <p class="status label label--on"><span class="dot" aria-hidden="true"></span>AVAILABLE FOR FREELANCE</p>
+  <div class="header-actions">
+    <a class="link-mono link-mono--contact" href="/contact/">Contact</a>
+    <button class="link-mono menu-trigger" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="menu">Menu<span class="bars" aria-hidden="true"><i></i><i></i></span></button>
+  </div>
+</header>
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Site navigation" aria-hidden="true">
+  <div class="menu__top">
+    <a class="brand" href="/" aria-label="PUVIN.IN home">PUVIN<span>.IN</span></a>
+    <button class="link-mono" type="button" data-menu-close>Close ✕</button>
+  </div>
+  <nav class="menu__links" aria-label="Main">
+    <ul>
+      <li><a href="/"><span class="num">01</span><span class="word" style="--i:0">HOME</span></a></li>
+      <li><a href="/about/"><span class="num">02</span><span class="word" style="--i:1">ABOUT</span></a></li>
+      <li><a href="/portfolio/"><span class="num">03</span><span class="word" style="--i:2">PROJECTS</span></a></li>
+      <li><a href="/services/"><span class="num">04</span><span class="word" style="--i:3">SERVICES</span></a></li>
+      <li><a href="/blog/" aria-current="page"><span class="num">05</span><span class="word" style="--i:4">BLOG</span></a></li>
+      <li><a href="/contact/"><span class="num">06</span><span class="word" style="--i:5">CONTACT</span></a></li>
+    </ul>
+  </nav>
+  <div class="menu__aside">
+    <div><h2 class="label">Status</h2><p class="label label--on"><span class="dot" aria-hidden="true"></span>AVAILABLE FOR FREELANCE</p></div>
+    <div><h2 class="label">Performance tier</h2>
+      <div class="perf" role="group" aria-label="Performance mode">
+        <button type="button" data-perf-set="high">HIGH</button><button type="button" data-perf-set="medium">MED</button><button type="button" data-perf-set="saver">SAVER</button>
+      </div>
+    </div>
+    <div><h2 class="label">Local time / your city</h2><p class="label label--on" data-clock>—</p></div>
+  </div>
+</div>
+<main id="main">
+  <section class="page-head" style="padding-bottom:clamp(32px,4vw,56px)">
+    <p class="label">[ Sample article ]</p>
+    <h1 class="display t-xl"><span class="mask"><span>How articles</span></span><span class="mask"><span style="--i:1">will look</span></span></h1>
+    <div class="article-meta label"><span>Category: Sample</span><span>Author: Poornima Thanaraju</span><span>2 min read</span></div>
+  </section>
+  <div class="reader-grid">
+    <nav class="toc label" aria-label="On this page">
+      <h2 class="label label--on">On this page</h2>
+      <a href="#reading">Calm reading</a>
+      <a href="#code">Code</a>
+      <a href="#quotes">Quotes and images</a>
+    </nav>
+    <article class="article">
+      <p class="notice"><span aria-hidden="true">!</span><span><b>SAMPLE ARTICLE.</b> This only shows how articles will look. No posts have been published yet, so remove it when the first real post goes live.</span></p>
+      <h2 id="reading">Calm reading</h2>
+      <p>Long text sits in one comfortable column with no moving effects behind it. The thin bar at the top of the window shows how far through the article you are, and the list beside the text follows along as you scroll.</p>
+      <h2 id="code">Code</h2>
+      <p>Code keeps its own monospaced block, which can scroll sideways on a small screen rather than breaking the page.</p>
+      <pre><code>const article = { title: 'Your first post', published: false };
+console.log(article.title);</code></pre>
+      <h2 id="quotes">Quotes and images</h2>
+      <blockquote>Quotes stand out in the large display type.</blockquote>
+      <figure>
+        <img src="/assets/img/process.png" alt="A code editor with a project in progress" width="1536" height="817" loading="lazy">
+        <figcaption class="label">Images run the full width of the column, with a small caption below.</figcaption>
+      </figure>
+    </article>
+  </div>
+  <a class="next-link" href="/blog/" data-cursor="BACK">
+    <span class="label">Back to</span>
+    <p class="display t-lg">All articles</p>
+  </a>
+</main>
+<footer class="site-footer">
+  <div class="footer__grid">
+    <div>
+      <p class="label">PUVIN.IN</p>
+      <p class="lead" style="margin-top:10px">Full Stack Developer specializing in building fast, scalable, and user-friendly web applications.</p>
+    </div>
+    <nav aria-label="Footer">
+      <h2 class="label label--on">Navigate</h2>
+      <ul><li><a href="/">Home</a></li><li><a href="/about/">About</a></li><li><a href="/portfolio/">Projects</a></li><li><a href="/services/">Services</a></li><li><a href="/blog/">Blog</a></li><li><a href="/contact/">Contact</a></li></ul>
+    </nav>
+    <div>
+      <h2 class="label label--on">Services</h2>
+      <ul><li><a href="/services/full-stack-web-development/">Full-Stack Web Development</a></li><li><a href="/services/frontend-application-development/">Frontend Application Development</a></li><li><a href="/services/backend-api-development/">Backend API Development</a></li><li><a href="/services/database-architecture/">Database Architecture</a></li></ul>
+    </div>
+    <div>
+      <h2 class="label label--on">System</h2>
+      <p class="label" style="display:flex;align-items:center;margin-bottom:8px"><span class="dot" aria-hidden="true"></span>AVAILABLE FOR FREELANCE</p>
+      <p class="label" data-clock>—</p>
+    </div>
+  </div>
+  <span class="footer__mark" aria-hidden="true">PUVIN.IN</span>
+  <div class="footer__bar label">
+    <p>Copyright © 2026 All rights reserved by Poornima.</p>
+    <p><a href="#main">Back to top ↑</a></p>
+  </div>
+</footer>
+</body>
+</html>

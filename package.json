@@ -1,0 +1,35 @@
+{
+  "name": "puvin-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PUVIN.IN — MEAN stack website and CMS",
+  "packageManager": "npm@11.20.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "workspaces": [
+    "packages/shared-types",
+    "packages/shared-config",
+    "packages/shared-validation",
+    "packages/ui",
+    "apps/api",
+    "apps/website",
+    "apps/admin"
+  ],
+  "scripts": {
+    "build:packages": "tsc -b packages/shared-types packages/shared-config packages/shared-validation",
+    "build": "npm run build:packages && npm run build -w @puvin/api && npm run build -w @puvin/website && npm run build -w @puvin/admin",
+    "dev:api": "npm run build:packages && npm run dev -w @puvin/api",
+    "dev:website": "npm run start -w @puvin/website",
+    "dev:admin": "npm run start -w @puvin/admin",
+    "seed": "npm run build:packages && npm run seed -w @puvin/api",
+    "test": "npm run build:packages && npm run test -w @puvin/api && npm run test -w @puvin/website && npm run test -w @puvin/admin",
+    "typecheck": "npm run build:packages && npm run typecheck -w @puvin/api",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "typescript": "~6.0.3"
+  }
+}

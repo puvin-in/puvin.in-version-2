@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <title>PUVIN Admin</title>
+    <base href="/admin/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+      try {
+        if (localStorage.getItem('puvin-theme') === 'light') document.documentElement.dataset.theme = 'light';
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <pva-root></pva-root>
+  </body>
+</html>

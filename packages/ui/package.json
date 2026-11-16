@@ -1,0 +1,13 @@
+{
+  "name": "@puvin/ui",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Angular standalone UI primitives shared by the website and admin apps. Consumed from source via tsconfig paths and compiled by each app.",
+  "dependencies": {
+    "lucide": "^1.68.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "^22.2.0",
+    "@angular/core": "^22.2.0"
+  }
+}

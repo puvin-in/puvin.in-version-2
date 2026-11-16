@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <title>PUVIN</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!-- Apply the visitor's saved theme before first paint (dark is the default). -->
+    <script>
+      try {
+        if (localStorage.getItem('puvin-theme') === 'light') document.documentElement.dataset.theme = 'light';
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <pv-root></pv-root>
+  </body>
+</html>
