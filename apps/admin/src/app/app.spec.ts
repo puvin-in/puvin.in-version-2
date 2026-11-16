@@ -20,7 +20,7 @@ describe('DashboardPage', () => {
   it('shows live health and content numbers from the API', async () => {
     const fixture = TestBed.createComponent(DashboardPage);
     fixture.autoDetectChanges();
-    await fixture.whenStable();
+    TestBed.tick();
 
     http.expectOne('/api/v1/health/ready').flush({
       data: {
@@ -52,7 +52,7 @@ describe('DashboardPage', () => {
   it('shows an actionable error when the API is down', async () => {
     const fixture = TestBed.createComponent(DashboardPage);
     fixture.autoDetectChanges();
-    await fixture.whenStable();
+    TestBed.tick();
 
     http.expectOne('/api/v1/health/ready').error(new ProgressEvent('error'));
     http.expectOne('/api/v1/public/site').error(new ProgressEvent('error'));

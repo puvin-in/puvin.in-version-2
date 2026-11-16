@@ -49,10 +49,10 @@ export const profile: ProfileInput = {
 };
 
 export const home: HomeContentInput = {
-  heroHeadline: 'Building Powerful Digital Experiences with Modern Web Technologies.', // [brief]
+  heroHeadline: 'I build digital experiences that feel alive.',
   primaryCta: { label: 'Hire Me', href: '#contact' }, // [brief]
   // Points at services until the Portfolio module (Phase 3) has real projects to show.
-  secondaryCta: { label: 'View Services', href: '#services' }, // [draft]
+  secondaryCta: { label: 'View projects', href: '/portfolio/' },
   process: ['Discovery', 'Planning', 'Design', 'Development', 'Testing', 'Deployment'].map(
     (title) => ({ title }),
   ), // [brief]

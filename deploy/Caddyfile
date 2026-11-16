@@ -1,0 +1,24 @@
+{$SITE_ADDRESS:http://localhost} {
+	encode zstd gzip
+
+	@api path /api/*
+	handle @api {
+		request_body {
+			max_size 6MB
+		}
+		reverse_proxy api:4100
+	}
+
+	redir /admin /admin/ 308
+	handle /admin/* {
+		header X-Robots-Tag "noindex, nofollow"
+		header X-Content-Type-Options "nosniff"
+		root * /srv
+		try_files {path} /admin/index.html
+		file_server
+	}
+
+	handle {
+		reverse_proxy website:4000
+	}
+}

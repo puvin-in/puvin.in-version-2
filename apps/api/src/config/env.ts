@@ -35,6 +35,11 @@ const envSchema = z
     API_DOCS_PUBLIC: booleanString,
   })
   .superRefine((env, ctx) => {
+    const admin = URL.parse(env.ADMIN_URL);
+    if (env.NODE_ENV === 'production' && admin && admin.protocol !== 'https:' &&
+        !['localhost', '127.0.0.1', '[::1]'].includes(admin.hostname)) {
+      ctx.addIssue({ code: 'custom', path: ['ADMIN_URL'], message: 'Use HTTPS outside localhost' });
+    }
     if (env.NODE_ENV === 'production' && env.MONGODB_URI === 'memory') {
       ctx.addIssue({
         code: 'custom',

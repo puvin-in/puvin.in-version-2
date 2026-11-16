@@ -5,9 +5,16 @@ import {
   writeResponseToNodeResponse,
 } from '@angular/ssr/node';
 import express from 'express';
-import { join } from 'node:path';
+import { join, resolve } from 'node:path';
+import { existsSync } from 'node:fs';
 
 const browserDistFolder = join(import.meta.dirname, '../browser');
+const sourceCandidates = [
+  resolve(import.meta.dirname, '../../../../../app'),
+  resolve('app'),
+  resolve('../../app'),
+];
+const immersiveRoot = sourceCandidates.find((path) => existsSync(join(path, 'index.html')));
 
 const app = express();
 const angularApp = new AngularNodeAppEngine();
@@ -30,6 +37,14 @@ app.use((_req, res, next) => {
 app.get('/healthz', (_req, res) => {
   res.json({ status: 'ok' });
 });
+
+// Ship the owner's immersive homepage as authored. Angular renders the CMS
+// collection and detail pages, while this document owns its WebGL lifecycle.
+if (immersiveRoot) {
+  app.get('/', (_req, res) => res.sendFile(join(immersiveRoot, 'index.html')));
+  app.get('/about', (_req, res) => res.redirect('/#intro'));
+  app.use('/assets', express.static(join(immersiveRoot, 'assets'), { index: false, redirect: false }));
+}
 
 /**
  * Serve static files from /browser

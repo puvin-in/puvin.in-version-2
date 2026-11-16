@@ -29,6 +29,9 @@ export const errorHandler: ErrorRequestHandler = (err, req, res, _next) => {
 
 function toAppError(err: unknown): AppError {
   if (err instanceof AppError) return err;
+  if (typeof err === 'object' && err !== null && 'code' in err && err.code === 11000) {
+    return new AppError(409, 'CONFLICT', 'This slug or email is already in use');
+  }
 
   if (err instanceof ZodError) {
     return new AppError(

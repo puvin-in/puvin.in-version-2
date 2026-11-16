@@ -50,8 +50,16 @@ export async function connectDatabase(
   return {
     uri,
     async close() {
-      await mongoose.disconnect();
-      await stopMemory?.();
+      try {
+        // The development helper may terminate mongod on Windows before a checkpoint.
+        if (stopMemory) await mongoose.connection.db?.admin().command({ fsync: 1 });
+      } finally {
+        try {
+          await mongoose.disconnect();
+        } finally {
+          await stopMemory?.();
+        }
+      }
     },
   };
 }

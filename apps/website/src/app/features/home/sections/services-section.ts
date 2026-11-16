@@ -1,12 +1,13 @@
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import type { ServiceSummaryDto } from '@puvin/shared-types';
 import { UiIcon } from '@puvin/ui';
+import { RouterLink } from '@angular/router';
 import { cmsIcon } from '../../../core/icons';
 import { SectionHeading } from './section-heading';
 
 @Component({
   selector: 'pv-services-section',
-  imports: [UiIcon, SectionHeading],
+  imports: [UiIcon, SectionHeading, RouterLink],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <section id="services" aria-labelledby="services-heading" class="pv-container py-20">
@@ -24,7 +25,7 @@ import { SectionHeading } from './section-heading';
             >
               <ui-icon [icon]="icon(service.icon)" [size]="22" />
             </span>
-            <h3 class="mt-5 font-display text-lg font-semibold">{{ service.title }}</h3>
+            <h3 class="mt-5 font-display text-lg font-semibold"><a [routerLink]="['/services', service.slug]">{{ service.title }}</a></h3>
             @if (service.summary) {
               <p class="mt-2 text-sm leading-relaxed text-muted">{{ service.summary }}</p>
             }

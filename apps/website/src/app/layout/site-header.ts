@@ -14,7 +14,7 @@ import { ThemeToggle } from './theme-toggle';
   template: `
     <header class="sticky top-0 z-40 border-b border-border bg-bg/75 backdrop-blur-xl">
       <div class="pv-container flex h-16 items-center justify-between gap-4">
-        <a routerLink="/" class="group flex items-center gap-2.5" (click)="menuOpen.set(false)">
+        <a href="/" class="group flex items-center gap-2.5" (click)="menuOpen.set(false)">
           <span
             aria-hidden="true"
             class="grid size-8 place-items-center rounded-lg bg-linear-to-br from-accent to-accent-2 font-display text-sm font-bold text-white"
@@ -25,11 +25,10 @@ import { ThemeToggle } from './theme-toggle';
 
         <nav aria-label="Primary" class="hidden md:block">
           <ul class="flex items-center gap-1">
-            @for (link of links; track link.fragment) {
+            @for (link of links; track link.label) {
               <li>
                 <a
-                  routerLink="/"
-                  [fragment]="link.fragment"
+                  [href]="link.path"
                   class="rounded-lg px-3 py-2 text-sm text-muted transition-colors hover:text-text"
                   >{{ link.label }}</a
                 >
@@ -40,7 +39,7 @@ import { ThemeToggle } from './theme-toggle';
 
         <div class="flex items-center gap-1">
           <pv-theme-toggle />
-          <a uiButton size="sm" routerLink="/" fragment="contact" class="ml-2 hidden sm:inline-flex"
+          <a uiButton size="sm" routerLink="/contact" class="ml-2 hidden sm:inline-flex"
             >Hire Me</a
           >
           <button
@@ -59,11 +58,10 @@ import { ThemeToggle } from './theme-toggle';
       @if (menuOpen()) {
         <nav id="mobile-menu" aria-label="Mobile" class="border-t border-border md:hidden">
           <ul class="pv-container flex flex-col py-3">
-            @for (link of links; track link.fragment) {
+            @for (link of links; track link.label) {
               <li>
                 <a
-                  routerLink="/"
-                  [fragment]="link.fragment"
+                  [href]="link.path"
                   class="flex min-h-11 items-center rounded-lg px-3 text-base text-muted hover:bg-surface-2 hover:text-text"
                   (click)="menuOpen.set(false)"
                   >{{ link.label }}</a

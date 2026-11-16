@@ -2,6 +2,7 @@ import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { Mail } from 'lucide';
 import type { HomeContentDto, ProfileDto } from '@puvin/shared-types';
 import { UiButton, UiIcon } from '@puvin/ui';
+import { RouterLink } from '@angular/router';
 
 /**
  * Contact call-to-action. Shows only the contact methods the owner has configured;
@@ -9,7 +10,7 @@ import { UiButton, UiIcon } from '@puvin/ui';
  */
 @Component({
   selector: 'pv-contact-cta-section',
-  imports: [UiButton, UiIcon],
+  imports: [UiButton, UiIcon, RouterLink],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <section id="contact" aria-labelledby="contact-heading" class="pv-container py-20">
@@ -24,6 +25,7 @@ import { UiButton, UiIcon } from '@puvin/ui';
         </h2>
         <p class="mx-auto mt-4 max-w-xl text-muted">{{ home().contactCta.text }}</p>
 
+        <a uiButton size="lg" routerLink="/contact" class="mt-8">Send a message</a>
         @if (profile().email; as email) {
           <div class="mt-8 flex justify-center">
             <a uiButton size="lg" [href]="'mailto:' + email">

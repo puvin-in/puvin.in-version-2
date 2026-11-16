@@ -5,8 +5,16 @@ const capturedPage = () => import('./features/captured-page/captured-page').then
 export const routes: Routes = [
   {
     path: '',
-    loadComponent: capturedPage,
+    loadComponent: () => import('./features/home/home').then((m) => m.HomePage),
   },
+  ...Object.entries({ blog: 'posts', portfolio: 'projects', services: 'services' }).flatMap(
+    ([path, resource]) => ['', '/:slug'].map(suffix => ({
+      path: path + suffix, data: { resource, section: path },
+      loadComponent: () => import('./features/content/content').then(m => m.ContentPage),
+    })),
+  ),
+  { path: 'about', redirectTo: '' },
+  { path: 'contact', loadComponent: () => import('./features/content/contact').then(m => m.ContactPage) },
   {
     path: 'main-demo',
     loadComponent: capturedPage,

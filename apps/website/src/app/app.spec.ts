@@ -2,6 +2,7 @@ import { TestBed } from '@angular/core/testing';
 import { provideHttpClient } from '@angular/common/http';
 import { HttpTestingController, provideHttpClientTesting } from '@angular/common/http/testing';
 import { Router, provideRouter } from '@angular/router';
+import { vi } from 'vitest';
 import type { ApiSuccess, PublicSiteDto } from '@puvin/shared-types';
 import { App } from './app';
 import { routes } from './app.routes';
@@ -41,6 +42,7 @@ describe('App', () => {
   let http: HttpTestingController;
 
   beforeEach(async () => {
+    vi.stubGlobal('matchMedia', () => ({ matches: true }));
     await TestBed.configureTestingModule({
       imports: [App],
       providers: [provideRouter(routes), provideHttpClient(), provideHttpClientTesting()],
@@ -48,12 +50,15 @@ describe('App', () => {
     http = TestBed.inject(HttpTestingController);
   });
 
-  afterEach(() => http.verify());
+  afterEach(() => {
+    vi.unstubAllGlobals();
+    http.verify();
+  });
 
   async function render() {
     const fixture = TestBed.createComponent(App);
     fixture.autoDetectChanges();
-    await fixture.whenStable();
+    TestBed.tick();
     return fixture;
   }
 

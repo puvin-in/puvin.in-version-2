@@ -1,8 +1,9 @@
-import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
-import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
+import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import {
   ExternalLink,
   LayoutDashboard,
+  FileText, Folder, Briefcase, Image, Inbox, Settings, Users,
   Menu,
   Moon,
   PanelLeftClose,
@@ -11,6 +12,7 @@ import {
   type IconNode,
 } from 'lucide';
 import { ThemeService, UiIcon } from '@puvin/ui';
+import { AdminSession } from '../features/cms/session';
 
 interface NavItem {
   label: string;
@@ -18,11 +20,16 @@ interface NavItem {
   icon: IconNode;
 }
 
-/**
- * Only modules that actually work are listed. Each phase adds its own entries
- * (Content, Portfolio, Media … per docs/BLUEPRINT.md §7).
- */
-const NAV: NavItem[] = [{ label: 'Dashboard', path: '/', icon: LayoutDashboard }];
+const NAV: NavItem[] = [
+  { label: 'Dashboard', path: '/', icon: LayoutDashboard },
+  { label: 'Posts', path: '/posts', icon: FileText },
+  { label: 'Projects', path: '/projects', icon: Folder },
+  { label: 'Services', path: '/services', icon: Briefcase },
+  { label: 'Media', path: '/media', icon: Image },
+  { label: 'Messages', path: '/messages', icon: Inbox },
+  { label: 'Settings', path: '/settings', icon: Settings },
+  { label: 'Users', path: '/users', icon: Users },
+];
 
 @Component({
   selector: 'pva-admin-shell',
@@ -63,7 +70,7 @@ const NAV: NavItem[] = [{ label: 'Dashboard', path: '/', icon: LayoutDashboard }
 
         <nav class="flex-1 overflow-y-auto p-3">
           <ul class="space-y-1">
-            @for (item of nav; track item.path) {
+            @for (item of nav(); track item.path) {
               <li>
                 <a
                   [routerLink]="item.path"
@@ -123,6 +130,7 @@ const NAV: NavItem[] = [{ label: 'Dashboard', path: '/', icon: LayoutDashboard }
           >
             View site <ui-icon [icon]="externalIcon" [size]="16" />
           </a>
+          <button type="button" class="rounded-lg px-3 py-2 text-sm hover:bg-surface-2" (click)="logout()">Sign out</button>
           <button
             type="button"
             class="grid size-11 place-items-center rounded-[10px] text-muted hover:bg-surface-2 hover:text-text"
@@ -134,6 +142,7 @@ const NAV: NavItem[] = [{ label: 'Dashboard', path: '/', icon: LayoutDashboard }
         </header>
 
         <main class="flex-1 px-4 py-8 sm:px-6 lg:px-8">
+          @if (logoutError()) { <p role="alert">{{ logoutError() }}</p> }
           <router-outlet />
         </main>
       </div>
@@ -142,7 +151,20 @@ const NAV: NavItem[] = [{ label: 'Dashboard', path: '/', icon: LayoutDashboard }
 })
 export class AdminShell {
   protected readonly theme = inject(ThemeService);
-  protected readonly nav = NAV;
+  private readonly session = inject(AdminSession);
+  private readonly router = inject(Router);
+  protected readonly nav = computed(() => NAV.filter(item => item.path !== '/users' || this.session.user()?.owner));
+  protected readonly logoutError = signal('');
+  protected logout() {
+    this.logoutError.set('');
+    this.session.logout().subscribe({
+      next: () => void this.router.navigateByUrl('/login'),
+      error: error => {
+        if (error.status === 401) void this.router.navigateByUrl('/login');
+        else this.logoutError.set('Unable to sign out. Try again.');
+      },
+    });
+  }
   protected readonly collapsed = signal(false);
   protected readonly mobileOpen = signal(false);
 

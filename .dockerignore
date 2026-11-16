@@ -1,0 +1,17 @@
+.git
+.env
+.env.*
+**/node_modules
+**/dist
+**/.angular
+**/*.tsbuildinfo
+**/.data
+**/coverage
+checks
+capture
+investigation.cany
+backups
+app/*
+!app/index.html
+!app/assets/
+!app/assets/**

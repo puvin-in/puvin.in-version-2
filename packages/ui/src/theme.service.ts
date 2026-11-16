@@ -22,7 +22,7 @@ export class ThemeService {
 
   set(mode: ThemeMode): void {
     this.mode.set(mode);
-    this.document.documentElement.dataset['theme'] = mode;
+    this.document.documentElement.setAttribute('data-theme', mode);
     if (this.isBrowser) {
       try {
         localStorage.setItem(STORAGE_KEY, mode);
@@ -40,6 +40,6 @@ export class ThemeService {
   }
 
   private readInitial(): ThemeMode {
-    return this.document.documentElement.dataset['theme'] === 'light' ? 'light' : 'dark';
+    return this.document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
   }
 }

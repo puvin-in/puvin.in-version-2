@@ -23,6 +23,7 @@
     "dev:website": "npm run start -w @puvin/website",
     "dev:admin": "npm run start -w @puvin/admin",
     "seed": "npm run build:packages && npm run seed -w @puvin/api",
+    "admin:create": "npm run admin:create -w @puvin/api --",
     "test": "npm run build:packages && npm run test -w @puvin/api && npm run test -w @puvin/website && npm run test -w @puvin/admin",
     "typecheck": "npm run build:packages && npm run typecheck -w @puvin/api",
     "format": "prettier --write .",

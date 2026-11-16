@@ -9,6 +9,7 @@
     "build": "tsc -p tsconfig.build.json",
     "start": "node dist/server.js",
     "seed": "tsx --env-file-if-exists=../../.env src/scripts/seed.ts",
+    "admin:create": "tsx --env-file-if-exists=../../.env src/scripts/create-admin.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "vitest run"
   },

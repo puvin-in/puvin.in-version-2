@@ -18,7 +18,7 @@ export async function getPublicSite(): Promise<PublicSiteDto> {
       .select('-_id -__v -createdAt -updatedAt')
       .lean<ProfileDto>(),
     SkillModel.find({ visible: true }).sort({ category: 1, displayOrder: 1, name: 1 }).lean(),
-    ServiceModel.find({ status: 'published' })
+    ServiceModel.find({ status: 'published', deletedAt: null })
       .sort({ displayOrder: 1, title: 1 })
       .lean(),
   ]);

@@ -10,6 +10,8 @@ import { errorHandler, notFoundHandler } from './core/middleware/error-handler.j
 import { corsPolicy, globalRateLimit, securityHeaders } from './core/middleware/security.js';
 import { healthRouter } from './modules/health/health.routes.js';
 import { publicSiteRouter } from './modules/site/public-site.routes.js';
+import { auth } from './modules/cms/auth.js';
+import { cmsRouter, publicCmsRouter } from './modules/cms/cms.routes.js';
 
 export interface AppDeps {
   env: Env;
@@ -55,6 +57,10 @@ export function createApp({ env, logger }: AppDeps): Express {
   api.use('/health', healthRouter());
   api.use(globalRateLimit());
   api.use('/public', publicSiteRouter());
+  api.use('/public', publicCmsRouter());
+  const session = auth(env);
+  api.use('/auth', session.router);
+  api.use('/admin', cmsRouter(session.originCheck, session.required));
 
   app.use(API_PREFIX, api);
   app.use(notFoundHandler);

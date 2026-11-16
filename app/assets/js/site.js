@@ -328,9 +328,10 @@
 
   /* ---------- Project stage ---------- */
 
-  const tracks = [];
+  const tracks = new Map();
 
   function setupStage(track) {
+    tracks.delete(track);
     const slides = $$('.slide', track);
     if (!slides.length) return;
     const stageEl = $('.stage', track);
@@ -393,7 +394,7 @@
     show(0);
     if (scrollDriven) {
       track.style.height = `${(slides.length - 1) * 70 + 100}svh`;
-      tracks.push(() => {
+      tracks.set(track, () => {
         const box = track.getBoundingClientRect();
         const travel = track.offsetHeight - stageEl.offsetHeight;
         const ratio = Math.max(0, Math.min(1, -box.top / Math.max(travel, 1)));
@@ -404,9 +405,15 @@
   }
 
   function syncTracks() {
-    tracks.forEach((sync) => sync());
+    tracks.forEach((sync, track) => {
+      if (track.isConnected) sync();
+      else tracks.delete(track);
+    });
   }
-  $$('.stage-track').forEach(setupStage);
+  $$('.stage-track').forEach((track) => {
+    setupStage(track);
+    track.addEventListener('puvin:projects-updated', () => setupStage(track));
+  });
 
   /* ---------- Project index preview ---------- */
 

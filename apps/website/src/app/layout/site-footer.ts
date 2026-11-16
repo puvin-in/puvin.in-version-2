@@ -1,11 +1,9 @@
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
-import { RouterLink } from '@angular/router';
 import { SiteDataService } from '../core/site-data.service';
 import { HOME_NAV_LINKS } from './nav-links';
 
 @Component({
   selector: 'pv-site-footer',
-  imports: [RouterLink],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <footer class="mt-24 border-t border-border">
@@ -22,11 +20,10 @@ import { HOME_NAV_LINKS } from './nav-links';
         <nav aria-label="Footer">
           <p class="text-sm font-semibold">Explore</p>
           <ul class="mt-3 space-y-2">
-            @for (link of links; track link.fragment) {
+            @for (link of links; track link.label) {
               <li>
                 <a
-                  routerLink="/"
-                  [fragment]="link.fragment"
+                  [href]="link.path"
                   class="text-sm text-muted transition-colors hover:text-text"
                   >{{ link.label }}</a
                 >

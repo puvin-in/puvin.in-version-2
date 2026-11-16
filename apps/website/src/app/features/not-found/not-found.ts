@@ -1,12 +1,11 @@
 import { ChangeDetectionStrategy, Component, RESPONSE_INIT, effect, inject } from '@angular/core';
-import { RouterLink } from '@angular/router';
 import { UiButton } from '@puvin/ui';
 import { SeoService } from '../../core/seo.service';
 import { SiteDataService } from '../../core/site-data.service';
 
 @Component({
   selector: 'pv-not-found-page',
-  imports: [RouterLink, UiButton],
+  imports: [UiButton],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <section class="pv-container flex flex-col items-center py-32 text-center">
@@ -17,7 +16,7 @@ import { SiteDataService } from '../../core/site-data.service';
       <p class="mt-4 max-w-md text-muted">
         The link may be outdated or the page may have moved.
       </p>
-      <a uiButton class="mt-8" routerLink="/">Back to home</a>
+      <a uiButton class="mt-8" href="/">Back to home</a>
     </section>
   `,
 })
