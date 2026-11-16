@@ -29,7 +29,11 @@ COPY --from=build /srv/apps/api/dist ./apps/api/dist
 COPY --from=build /srv/apps/website/dist/website ./apps/website/dist/website
 COPY --from=build /srv/app ./app
 COPY --from=build /srv/packages ./packages
+# Local checkouts can have mode 0600 files from a restrictive shell umask.
+RUN chmod -R a+rX /srv/apps /srv/app /srv/packages
 USER node
+RUN test -r apps/api/package.json && test -r app/index.html \
+    && node --input-type=module -e "await import('./apps/api/dist/app.js')"
 CMD ["node", "apps/api/dist/server.js"]
 
 FROM caddy:2-alpine AS gateway
